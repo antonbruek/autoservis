@@ -1,0 +1,41 @@
+.footer {
+    background-color: rgba(0, 0, 0, 1);
+    height: 200px;
+}
+.footerLogo {
+    color: var(--text-color-white);
+    font-size: var(--text-size-xl);
+    font-family: var(--bold-font);
+    line-height: 44px;
+    margin-left: var(--spacing-l);
+    display: flex;
+    align-items: center;
+}
+.footerServices p, .footerContacts p {
+    color: var(--pure-color);
+    font-size: var(--text-size-s);
+    font-family: var(--bold-font);
+    line-height: 22px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+.footerServices a, .footerContacts a {
+    color: var(--text-color-white);
+    font-size: var(--text-size-xxs);
+    font-family: var(--regular-font);
+    line-height: 17px;
+    margin-bottom: 10px;
+} 
+.footerServices a:nth-child(5) {
+    margin-right: 59px;
+}
+.footerButtons {
+    margin-right: var(--spacing-l);
+}
+.footerButtonTruck {
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+.footerButtonRepair {
+    margin-right: 30px;
+}

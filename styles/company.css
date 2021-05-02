@@ -1,0 +1,58 @@
+.company {
+    margin-top: var(--spacing-xxxl);
+    margin-left: var(--spacing-l);
+    margin-right: var(--spacing-l);
+    clear: both;
+}
+.companyImg {
+    object-fit: cover;
+    max-height: 750px;
+}
+
+.company div div {
+    width: calc(50% - 14.5px);
+        
+}
+.aboutCompany {
+    font-size: var(--text-size-xl);
+    font-family: var(--bold-font);
+    line-height: 44px;
+    color: var(--text-color-regular);
+    text-align: center;
+    margin-bottom: 63px;
+}
+
+.companyTextMain {
+    width: 797px;
+    height: 190px;
+    margin-top: 123px;
+    background-color: var(--text-color-regular);
+    padding-left: 42px;
+    padding-right: 48px;
+    color: var(--text-color-white);
+    font-size: var(--text-size-l);
+    font-family: var(--regular-font);
+    line-height: 31.66px;
+    border-radius: 30px 0px 0px 30px;
+    position: sticky;
+    margin-left: calc(100% - 857px);
+    margin-right: 0px;
+}
+.companyTextMain span {
+    font-family: var(--bold-font);
+}
+.companyTextWeHave {
+    color: var(--text-color-regular);
+    font-size: var(--text-size-20);
+    font-family: var(--regular-font);
+    line-height: 144.19%;
+    margin-top: 50px;
+    margin-bottom: 40px; 
+}
+.companytextChoose {
+    color: var(--text-color-regular);
+    font-size: var(--text-size-20);
+    font-family: var(--regular-font);
+    line-height: 144.19%;
+    margin-bottom: 40px;
+}

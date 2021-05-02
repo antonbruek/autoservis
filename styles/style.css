@@ -1,0 +1,187 @@
+@import url('header.css');
+@import url('services.css');
+@import url('serviceVisit.css');
+@import url('company.css');
+@import url('contacts.css');
+@import url('footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@font-face {
+    font-family: "InterRegular";
+    src: url("../fonts/InterRegular/InterRegular.eot");
+    src: url("../fonts/InterRegular/InterRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/InterRegular/InterRegular.woff") format("woff"), url("../fonts/InterRegular/InterRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face { 
+    font-family: "InterBold";
+    src: url("../fonts/InterBold/InterBold.eot");
+    src: url("../fonts/InterBold/InterBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/InterBold/InterBold.woff") format("woff"),
+    url("../fonts/InterBold/InterBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+* {
+  padding: 0;
+  margin: 0; 
+}
+img {
+    width: 100%
+}
+:root {
+    --regular-font: 'InterRegular';
+    --bold-font: 'InterBold';
+    --roboto: 'Roboto', sans-serif;
+    
+    --border-radius: 16.5px;
+    --spacing-xxxl: 80px;
+    --spacing-xxl: 60px;
+    --spacing-xl: 40px;
+    --spacing-l: 30px;
+    --spacing-m: 20px;
+    --spacing-s: 15px;
+    --spacing-xs: 10px;
+    --spacing-xxs: 8px;
+
+    --border-radius-regular: 8px;
+    --border-radius-small: 5px;
+    
+    --text-color-lighter: rgba(171, 181, 190, 1);
+    --text-color-regular: rgba(32, 37, 43, 1);
+    --text-color-white: rgba(255, 255, 255, 1);
+    --text-color-grey: rgba(108, 117, 125, 1);
+    --text-color-number: rgba(206, 212, 218, 1);
+    --text-color-border: #DEDEDE;
+    
+    --pure-color: rgba(215, 26, 33, 1);
+    
+    --text-size-xxl: 48px;
+    --text-size-xl: 36px;
+    --text-size-l: 24px;
+    --text-size-m: 22px;
+    --text-size-20: 20px;
+    --text-size-s: 18px;
+    --text-size-xs: 16px;
+    --text-size-xxs: 14px;
+    --text-size-xxxs: 13px;
+    
+    --text-font-300: 300;
+    --text-font-400: 400;
+    --text-font-500: 500;
+    --text-font-600: 600;
+    
+    --text-spacingL: .02em;
+    --text-spacingM: .01em;
+    
+    --text-lineHeight: 140%;
+}
+body, html {
+    background: #E5E5E5;
+}
+a {
+    text-decoration: none;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.centerSite {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1180px;
+}
+@media screen and (max-width: 480px) {
+    .centerSite {
+        width: calc(100% - 30px);  
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.mobile {
+    display: none;
+}
+.comp {
+    display: block;
+}
+@media screen and (max-width: 767px) {
+    .mobile {
+        display: block;
+    }
+    .comp {
+    display: none;
+}
+}
+.grid {
+    display: grid;
+}
+.flex {
+    display: flex;
+}
+.block {
+    display: block;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.middle {
+    align-items: center;
+}
+.row {
+    display: flex;
+}
+.right {
+    justify-content: flex-end;
+}
+.onSides {
+    justify-content: space-between;
+}
+.around {
+    justify-content: space-around;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.displayNone {
+    display: none;
+}
+.buttonRepair {
+    font-size: var(--text-size-xs);
+    font-family: var(--roboto);
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--text-color-white);
+    background-color: var(--pure-color);
+    border: none;
+    cursor: pointer;
+    width: 175px;
+    height: 50px;
+    border-radius: var(--border-radius-small);
+}
+.buttonTruck {
+    font-size: var(--text-size-xs);
+    font-family: var(--roboto);
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--text-color-white);
+    background-color: var(--text-color-regular);
+    border: none;
+    cursor: pointer;
+    width: 111px;
+    height: 50px;
+    border-radius: var(--border-radius-small);
+}
+@media screen and (max-width: 767px) {
+    .buttonRepair {
+        font-size: var(--text-size-xxs);
+        line-height: 16px;
+        width: 112px;
+    }
+    .buttonTruck {
+        font-size: var(--text-size-xxs);
+        line-height: 16px;
+        width: 111px;
+    }
+}

@@ -1,0 +1,157 @@
+.serviceVisit {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.serviceHeader {
+    width: 690px;
+    height: 110px;
+    font-size: var(--text-size-xl);
+    font-family: var(--bold-font);
+    line-height: 44px;
+    align-items: center;
+    display: flex;
+    color: var(--text-color-regular);
+    margin-top: var(--spacing-xxxl);
+    margin-bottom: var(--spacing-xl)
+}
+.formText {
+    max-width: 470px;
+}
+.inputText {
+    width: 470px;
+    height: 40px;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: var(--text-color-lighter);
+    padding-left: 29px;
+    margin-bottom: 30px;
+    font-size: var(--text-size-s);
+    font-family: var(--roboto);
+}
+.inputBreakdown {
+    background-image: url(../img/down.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    
+}
+.chooseDate, .chooseTime {
+    color: var(--text-color-regular);
+    margin-bottom: 30px;
+    font-size: var(--text-size-l);
+    font-family: var(--regular-font);
+    line-height: 29px;
+}
+.chooseDate {
+    margin-bottom: 14px;
+    margin-left: 118px;
+}
+.chooseTime {
+    margin-bottom: 11px;
+    margin-left: 53px;
+}
+.chooseDateTable {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 299px;
+    height: 277px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    background-color: var(--text-color-white);
+    margin-left: 118px;
+    .flex .flex {
+        p:first-child {
+        color: var(--text-color-regular);
+        font-size: var(--text-size-s);
+        font-family: var(--bold-font);
+        line-height: 22px;
+    }
+    p:nth-child(2) {
+        color: var(--text-color-regular);
+        font-size: var(--text-size-s);
+        font-family: var(--regular-font);
+        line-height: 22px;
+        margin-left: 14px;
+        margin-bottom: 55px;
+    }
+    }
+    img {
+        width: 8px;
+        height: 16px;
+        margin-top: 3px;
+        cursor: pointer;
+    }
+    .left {
+            margin-right: 15px;
+    }
+    .days {
+        color: var(--text-color-lighter);
+        font-size: var(--text-size-xxs);
+        font-family: var(--regular-font);
+        line-height: 17px;
+        height: 20px;
+        width: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .notActiveDate {
+        color: var(--text-color-number);
+        font-size: var(--text-size-xxs);
+        font-family: var(--bold-font);
+        line-height: 17px;
+        height: 20px;
+        width: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .activeDate {
+        color: var(--text-color-regular);
+        font-size: var(--text-size-xxs);
+        font-family: var(--regular-font);
+        line-height: 17px;
+        text-align: start;
+        height: 20px;
+        width: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .selectedDate {
+        color: var(--text-color-white);
+        background-color: #D71A21;
+        border-radius: 100px;
+        height: 20px !important;
+        width: 20px !important; 
+    }
+}
+.chooseTimeTable {
+    width: 278px;
+    height: 250px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    background-color: var(--text-color-white);
+    padding: 15px;
+    margin-left: 53px;
+    p {
+        color: var(--text-color-regular);
+        font-size: var(--text-size-xxs);
+        font-family: var(--regular-font);
+        line-height: 17px;
+        width: 39px;
+        height: 39px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .selectedTime {
+        background: var(--pure-color);
+        border-radius: 43px;
+        color: var(--text-color-white);
+    }
+    div:nth-child(n+2) {
+        margin-top: 31.33px;
+    }
+}
+.buttonChoose {
+    margin-left: calc( 50% - 87.5px);
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="header">
+        <img class="headerImg absolute comp" src="img/header.png" alt="header">
+        <img src="img/headerMobile.png" alt="" class="mobile absolute">
+        <div class="absolute header__inf">
+           <div class="nav flex">
+           <a href="#" class="logo">Motorheart</a>
+            <ul class="menu">
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Записаться</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            </div>
+        <h2 class="header__logo">Motorheart</h2>
+        <p class="header__desc">Выбирайте удобный для вас день и время для обслуживания вашего авто. </p>
+        <div class="header__buttons">
+            <button class="uppercase header__repair buttonRepair">ремонт</button>
+            <button class="uppercase buttonTruck">эвакуатор</button>
+        </div>
+       </div>
+    </div>
+    <div class="services">
+        <h2 class="servicesHeader">Частые услуги</h2>
+        <div class="servicesCards flex">
+            <div class="servicesCard">
+                <img src="img/servises1.png" alt="">
+                <p>Ремонт и обслуживание автоматической трансмиссии</p>
+            </div>
+            <div class="servicesCard">
+                <img src="img/services2.png" alt="">
+                <p>Ремонт и обслуживание двигателя</p>
+            </div>
+            <div class="servicesCard">
+                <img src="img/services3.png" alt="">
+                <p>Ремонт и обслуживание ходовой части</p>
+            </div>
+            <div class="servicesCard">
+                <img src="img/services4.png" alt="">
+                <p>Ремонт и обслуживание топливной системы</p>
+            </div>
+        </div>
+    </div>
+    <div class="serviceVisit">
+        <h2 class="serviceHeader">Вы можете выбрать удобный для вас день и время для посещения сервиса</h2>
+        <div>
+            <form action="post" class="">
+                <div class="flex">
+                <div class="formText">
+                <input class="inputText inputBreakdown" type="text" placeholder="Вид поломки">
+                <input class="inputText" type="text" placeholder="марка и модель автомобиля">
+                <input class="inputText" type="text" placeholder="год выпуска">
+                <input class="inputText" type="text" placeholder="имя">
+                <input class="inputText" type="text" placeholder="номер телефона">
+                </div>
+                <div>
+                    <p class="chooseDate">Выберите день:</p>
+                    <div class="chooseDateTable">
+                        <div class="flex onSides">
+                            <div class="flex">
+                                <p>Январь</p>
+                                <p>2021</p>
+                            </div>
+                            <div>
+                                <img class="left" src="img/left.svg" alt="">
+                                <img src="img/right.svg" alt="">
+                            </div>
+                        </div>
+                        <table>
+                            <div class="flex onSides">
+                                <h6 class="days">Пн</h6>
+                                <h6 class="days">Вт</h6>
+                                <h6 class="days">Ср</h6>
+                                <h6 class="days">Чт</h6>
+                                <h6 class="days">Пт</h6>
+                                <h6 class="days">Сб</h6>
+                                <h6 class="days">Вс</h6>
+                            </div>
+                            <div class="flex onSides">
+                                <p class="notActiveDate">28</p>
+                                <p class="notActiveDate">29</p>
+                                <p class="notActiveDate">30</p>
+                                <p class="notActiveDate">31</p>
+                                <p class="activeDate">01</p>
+                                <p class="activeDate">02</p>
+                                <p class="activeDate">03</p>
+                            </div>
+                            <div class="flex onSides">
+                                <p class="activeDate selectedDate">04</p>
+                                <p class="activeDate">05</p>
+                                <p class="activeDate">06</p>
+                                <p class="activeDate">07</p>
+                                <p class="activeDate">08</p>
+                                <p class="activeDate">09</p>
+                                <p class="activeDate">10</p>
+                            </div>
+                            <div class="flex onSides">
+                                <p class="activeDate">11</p>
+                                <p class="activeDate">12</p>
+                                <p class="activeDate">13</p>
+                                <p class="activeDate">14</p>
+                                <p class="activeDate">15</p>
+                                <p class="activeDate">16</p>
+                                <p class="activeDate">17</p>
+                            </div>
+                            <div class="flex onSides">
+                                <p class="activeDate">18</p>
+                                <p class="activeDate">19</p>
+                                <p class="activeDate">20</p>
+                                <p class="activeDate">21</p>
+                                <p class="activeDate">22</p>
+                                <p class="activeDate">23</p>
+                                <p class="activeDate">24</p>
+                            </div>
+                            <div class="flex onSides">
+                                <p class="activeDate">25</p>
+                                <p class="activeDate">26</p>
+                                <p class="activeDate">27</p>
+                                <p class="activeDate">28</p>
+                                <p class="activeDate">29</p>
+                                <p class="activeDate">30</p>
+                                <p class="activeDate">31</p>
+                            </div>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <p class="chooseTime">Выберите время:</p>
+                    <div class="chooseTimeTable">
+                    <div class="flex onSides">
+                        <p class="selectedTime">09:00</p>
+                        <p>10:00</p>
+                        <p>11:00</p>
+                    </div>
+                    <div class="flex onSides">
+                        <p>12:00</p>
+                        <p>13:00</p>
+                        <p>14:00</p>
+                    </div>
+                    <div class="flex onSides">
+                        <p>15:00</p>
+                        <p>16:00</p>
+                        <p>17:00</p>
+                    </div>
+                    <div class="flex onSides">
+                        <p>18:00</p>
+                        <p>19:00</p>
+                        <p>20:00</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <input type="submit" value="РЕМОНТ" class="buttonRepair buttonChoose">
+                
+            </form>
+        </div>
+    </div>
+    <div class="company">
+       <h2 class="aboutCompany">О компании</h2>
+        <div class="flex onSides">
+           <div class="relative">
+            <img class="companyImg" src="img/company.png" alt="">
+            </div>
+            <div>
+               <p class="companyTextMain"><span>Motorheart</span> профессиональный автосервис для качественного ремонта и обслуживания Вашего автомобиля. Наши специалисты выполнят работы любой сложности в различных видах ремонта автомобилей, таких как ремонт АКПП, ДВС,<br>топливных систем, электрики, ходовой части автомобилей, систем кондиционирования и многих других.</p>
+                <p class="companyTextWeHave">У нас есть свой магазин автозапчастей, функционирующий более 12 лет, за это время сумевший заработать тысячи постоянных клиентов и хорошую репутацию на рынке автозапчастей. Быстрый и качественный подбор необходимых деталей и сопутствующих товаров, в разы ускоряет процесс ремонта автомобилей. В магазине работают опытные менеджеры, которые без труда найдут все необходимое для вашего авто и доставят в минимальные сроки.</p>
+                <p class="companytextChoose">Выбирайте удобное день и время для посещения сервиса.</p>
+                <button class="buttonRepair uppercase">ремонт</button>
+            </div>
+        </div>
+    </div>
+    <div class="contacts">
+        <h2 class="contactsOur">Наши контакты</h2>
+        <div class="flex onSides">
+            <div class="contactsAll">
+                <div class="col">
+                    <p class="uppercase phone">Телефоны:</p>
+                    <a href="">+380950102103</a>
+                    <a href="">+380950102104</a>
+                </div>
+                <div class="col">
+                    <p class="uppercase address">Адреса:</p>
+                    <a href="#">г.Харьков ул. Пушкина д.29 ст. А</a>
+                    <a href="#">г.Киев ул. Пушкина д.12</a>
+                    <a href="#">г.Днепр ул. Пушкина д.31</a>
+                </div>
+                <div class="col">
+                    <p class="uppercase email">почта:</p>
+                    <a href="#">autorepair@example.com</a>
+                </div>
+                <div class="col">
+                    <p class="uppercase workTime">Режим работы:</p>
+                    <a href="#">пн-пт: с 09:00 до 20:00</a>
+                    <a href="#">сб-вс: с 09:00 до 15:00</a>
+                </div>
+            </div>
+            <div>
+                <img src="img/map.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer flex onSides">
+        <p class="footerLogo">Motorheart</p>
+        <div class="flex">
+            <div class="footerServices col">
+                <p>Частые услуги:</p>
+                <a href="#">Ремонт и обслуживание акпп</a>
+                <a href="#">Ремонт и обслуживание двигателя</a>
+                <a href="#">Ремонт и обслуживание ходовой части</a>
+                <a href="#">Ремонт и обслуживание топливной системы</a>
+            </div>
+            <div class="footerContacts col">
+                <p>Контакты:</p>
+                <a href="#">+380950102103</a>
+                <a href="#">+380950102104</a>
+                <a href="#">autorepair@example.com</a>
+            </div>
+        </div>
+        <div class="footerButtons col">
+            <button class="footerButtonTruck buttonTruck uppercase">эвакуатор</button>
+            <button class="footerButtonRepair buttonRepair uppercase">ремонт</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.contacts {
+    margin-top: var(--spacing-xxxl);
+    margin-bottom: var(--spacing-xxxl);
+    margin-left: var(--spacing-l);
+    margin-right: var(--spacing-l);
+}
+.contactsOur {
+    font-size: var(--text-size-xl);
+    font-family: var(--bold-font);
+    line-height: 44px;
+    color: var(--text-color-regular);
+    text-align: center;
+    margin-bottom: 57px;
+}
+.contactsAll {
+    width: 25%;
+}
+.contactsAll p {
+    color: var(--text-color-regular);
+    font-size: var(--text-size-l);
+    font-family: var(--regular-font);
+    line-height: 29px;
+    padding-left: 34px;
+}
+.contactsAll p:nth-child(2n+1) {
+    margin-top: 20px;
+}
+.contactsAll a {
+    color: var(--text-color-regular);
+    font-size: var(--text-size-xs);
+    font-family: var(--regular-font);
+    line-height: 19px;
+    margin-top: 10px;
+    padding-left: 34px;
+}
+.phone {
+    background-image: url(../img/phone.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.address{
+    background-image: url(../img/location.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.email {
+    background-image: url(../img/email.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.workTime {
+    background-image: url(../img/time.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.map {
+    min-height: 264px;
+    max-width: 1500px;
+}

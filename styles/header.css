@@ -1,0 +1,120 @@
+.header {
+    height: 550px;
+}
+.headerImg {
+        object-fit: cover;
+    }
+.headerImg {
+    height: 550px;
+}
+.header__inf {
+    margin-left: var(--spacing-l);
+    margin-right: var(--spacing-l);
+}
+.nav {
+    margin-top: 16px;
+}
+.logo {
+    font-size: var(--text-size-xxl);
+    font-family: var(--bold-font);
+    line-height: 58px;
+    color: var(--text-color-white);
+    margin-right: 36px;
+}
+.menu {
+    display: flex;
+    font-size: var(--text-size-s);
+    font-family: var(--roboto);
+    line-height: 58px;
+    list-style-type: none;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu li a{
+    color: var(--text-color-white);
+}
+.menu li:nth-child(2) {
+    margin-right: 133px;
+    margin-left: 148px;
+}
+.menu li:nth-child(3) {
+    margin-right: 136px;
+}
+.header__logo {
+    font-size: var(--text-size-xl);
+    font-family: var(--bold-font);
+    line-height: 44px;
+    color: var(--text-color-white);
+    margin-top: 89px;
+}
+.header__desc {
+    font-size: var(--text-size-l);
+    font-family: var(--regular-font);
+    line-height: 47px;
+    color: var(--text-color-white);
+    margin-top: 27px;
+    max-width: 484px;
+}
+.header__buttons {
+    margin-top: 82px;
+}
+.header__repair {
+    margin-right: var(--spacing-m)
+}
+@media screen and (max-width: 767px) {
+    .nav {
+        margin-top: 25px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .logo {
+        font-size: var(--text-size-xl);
+        line-height: 44px;
+        margin: auto;
+    }
+    .menu {
+        display: none
+    }
+    .header__logo {
+        font-size: var(--text-size-l);
+        margin-top: 61px;
+        line-height: 29px;
+    }
+    .header__desc {
+        font-size: var(--text-size-s);
+        line-height: 194%;
+        min-width: 304px;
+        max-width: 751px;
+        margin-top: 20px;
+    }
+    .header__buttons {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 66px;
+    }
+    .header__repair {
+        margin-right: 0px;
+    }
+    .header__inf {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .header .mobile {
+        
+        height: 510px;
+        object-fit: cover;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .menu li:nth-child(2) {
+    margin-right: 23px;
+    margin-left: 23px;
+    }    
+    .menu li:nth-child(3) {
+    margin-right: 23px;
+    }
+    .logo {
+        margin-right: 20px;
+    }
+}

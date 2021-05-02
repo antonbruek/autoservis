@@ -1,0 +1,87 @@
+.services {
+    margin-top: var(--spacing-xxxl);
+}
+.servicesHeader {
+    font-size: var(--text-size-xl);
+    font-family: var(--bold-font);
+    line-height: 44px;
+    color: var(--text-color-regular);
+    text-align: center;
+}
+.servicesCards {
+    margin-top: var(--spacing-xxl);
+    justify-content: space-around;
+}
+.servicesCard {
+    max-width: 289px;
+    max-height: 330px;
+    min-width: 142px;
+    min-height: 181px;
+    background-color: var(--text-color-regular);
+    border-radius: 15px;
+    display: block;
+    
+}
+.servicesCard img {
+   max-width: 289px;
+    max-height: 220px;
+    min-width: 142px;
+    min-height: 97.84px;
+}
+.servicesCard p {
+    max-width: 289px;
+    max-height: 110px;
+    min-width: 142px;
+    min-height: 83px;
+    font-size: var(--text-size-m);
+    font-family: var(--regular-font);
+    line-height: 27px;
+    color: var(--text-color-white);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 767px) {
+    .services {
+    margin-top: var(--spacing-xxl);
+    }
+    .servicesHeader {
+    font-size: var(--text-size-l);
+    line-height: 19px;
+    }
+    .servicesCards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .servicesCard {
+        width: calc( 50% - 36px );
+        
+    }
+    .servicesCard:nth-child(1), .servicesCard:nth-child(3) {
+        margin-left: 8px;
+    }
+    .servicesCard:nth-child(4), .servicesCard:nth-child(2) {
+        margin-right: 8px;
+        margin-left: 20px;
+    }
+    .servicesCard:nth-child(1), .servicesCard:nth-child(2) {
+        margin-bottom: 20px;
+    }
+    .servicesCard p {
+    font-size: var(--text-size-xxs);
+    line-height: 17px;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+    .servicesCard:nth-child(n + 2) {
+        margin-left: 20px;
+    }
+    .servicesCard:nth-child(1) {
+        margin-left: 30px;
+    }
+    .servicesCard:nth-child(4) {
+        margin-right: 30px;
+    }
+}
