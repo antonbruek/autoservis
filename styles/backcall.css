@@ -1,0 +1,161 @@
+.ImgEscRed {
+    width: 41px;
+    height: 41px;
+    display: block;
+    margin-left: 1206px;
+    cursor: pointer;
+}
+.serviceVisit {
+  background-color: var(--text-color-regular);
+    width: 1206px;
+    height: 510px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 15px;
+}
+.backcall {
+    font-size: var(--text-size-l);
+  font-family: var(--regular-font);
+    color: var(--text-color-white);
+  line-height: 29px;
+    font-weight: 500;
+    padding-top: 22px;
+    margin-bottom: 12px;
+    margin-left: 48px;
+}
+.serviceHeader {
+    width: 316px;
+    height: 48px;
+  font-size: var(--text-size-20);
+  font-family: var(--regular-font);
+  line-height: 24px;
+  align-items: center;
+  display: flex;
+  color: var(--text-color-white);
+  margin-top: 0px;
+  margin-bottom: 29px;}
+
+.formText {
+  max-width: 470px;
+margin-left: 48px;}
+
+.inputText {
+  width: 470px;
+  height: 40px;
+  border: 1px solid #CED4DA;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: var(--text-color-lighter);
+  padding-left: 29px;
+  margin-bottom: 30px;
+  font-size: var(--text-size-s);
+  font-family: var(--roboto); }
+
+.chooseDate, .chooseTime {
+  color: var(--text-color-white);
+  margin-bottom: 23.68px;
+  font-size: var(--text-size-l);
+  font-family: var(--regular-font);
+  line-height: 29px;
+margin-top: 19px;}
+
+.chooseDate {
+  margin-bottom: 23.68px;
+  margin-left: 62px; }
+
+.chooseTime {
+    margin-bottom: 21px;
+  margin-left: 47.29px; }
+
+.chooseDateTable {
+  box-sizing: border-box;
+  padding: 15px;
+    width: 266.96px;
+    height: 247.32px;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  background-color: var(--text-color-white);
+  margin-left: 61.75px; }
+.chooseDateTable .flex .flex p:first-child {
+    color: var(--text-color-regular);
+    font-size: var(--text-size-s);
+    font-family: var(--bold-font);
+    line-height: 22px; }
+.chooseDateTable .flex .flex p:nth-child(2) {
+    color: var(--text-color-individualDark);
+    font-size: var(--text-size-s);
+    font-family: var(--regular-font);
+    line-height: 22px;
+    margin-left: 14px;
+    margin-bottom: 25.32px; }
+.chooseDateTable img {
+    width: 8px;
+    height: 16px;
+    margin-top: 3px;
+    cursor: pointer; }
+.chooseDateTable .left {
+    margin-right: 15px; }
+.chooseDateTable .days {
+    color: var(--text-color-lighter);
+    font-size: var(--text-size-xxs);
+    font-family: var(--regular-font);
+    line-height: 17px;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 10px;
+    text-align: center; }
+.chooseDateTable .notActiveDate {
+    color: var(--text-color-number);
+    font-size: var(--text-size-xxs);
+    font-family: var(--bold-font);
+    line-height: 17px;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 10px;
+    text-align: center; }
+  .chooseDateTable .activeDate {
+    color: var(--text-color-regular);
+    font-size: var(--text-size-xxs);
+    font-family: var(--regular-font);
+    line-height: 17px;
+    text-align: start;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer; }
+  .chooseDateTable .selectedDate {
+    color: var(--text-color-white);
+    background-color: #D71A21;
+    border-radius: 100px;
+    height: 20px !important;
+    width: 20px !important; }
+
+.chooseTimeTable {
+  width: 248.21px;
+  height: 250px;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  background-color: var(--text-color-white);
+  padding: 0px;
+  margin-left: 47.32px; }
+  .chooseTimeTable p {
+    color: var(--text-color-regular);
+    font-size: var(--text-size-xxs);
+    font-family: var(--regular-font);
+    line-height: 17px;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    cursor: pointer; }
+  .chooseTimeTable .selectedTime {
+    background: var(--pure-color);
+    border-radius: 43px;
+    color: var(--text-color-white); }
+  .chooseTimeTable div:nth-child(n+2) {
+    margin-top: 21.33px; }
+
+.buttonChoose {
+  margin-left: 48px; }

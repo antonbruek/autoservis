@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/calendar.css">
+    <link rel="stylesheet" href="styles/calendar1.1.css">
+</head>
+<body>
+    <div class="header flex onSides">
+        <ul class="flex">
+            <li class="active">Точки</li>
+            <li>Запчасти</li>
+        </ul>
+        <img src="img/authorization.svg" alt="">
+    </div>
+    <div class="flex leftMenu">
+        <ul>
+            <li class="activeMenu">Точки</li>
+            <li>Запчасти</li>
+        </ul>
+        <div class="border"></div>
+        <div class="content">
+            <div class="flex">
+                <button class="buttonBack">Назад</button>
+                <button class="buttonOrderPart">заказать запчасть</button>
+                <p class="chooseDateContent">Выберите день:</p>
+                <p class="date">Четверг 07.01.2021</p>
+            </div>
+            <div class="flex">
+                 <table>
+               <tr>
+                   <th></th>
+                   <th class="tableAddress">точка 1, ул Пушкина д.29 ст. А</th>
+               </tr>
+               <tr>
+                   <th class="tableTime">09:00</th>
+                   <th class="flex onSides">
+                      <div class="flex">
+                       <p class="tableDone">Замена масла<br>09:00 - 10:00</p>
+                       <p class="tableCanceled">Оклейка<br>09:00- 11:00</p>
+                      </div>
+                      <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+               <tr>
+                   <th class="tableTime">10:00</th>
+                   <th class="flex onSides">
+                      <div class="tableServices">
+                       <p class="tableInProcess">Прокачка тормозов<br>10:00 - 12:00</p>
+                       <div class="flex onSides">
+                           <p class="tableInProcessDone">выполнено</p>
+                           <p class="tableInProcessRemove">удалить</p>
+                       </div>
+                      </div>
+                       <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+               <tr>
+                   <th class="tableTime">11:00</th>
+                   <th class="flex onSides">
+                       <div></div>
+                       <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+               <tr>
+                   <th class="tableTime">12:00</th>
+                   <th class="flex onSides">
+                       <div></div>
+                       <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+               <tr>
+                   <th class="tableTime">13:00</th>
+                   <th class="flex onSides">
+                       <div></div>
+                       <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+               <tr>
+                   <th class="tableTime">14:00</th>
+                   <th class="flex onSides">
+                       <div></div>
+                       <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+               <tr>
+                   <th class="tableTime">15:00</th>
+                   <th class="flex onSides">
+                       <div></div>
+                       <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+               <tr>
+                   <th class="tableTime">16:00</th>
+                   <th class="flex onSides">
+                       <div></div>
+                       <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+               <tr>
+                   <th class="tableTime">17:00</th>
+                   <th class="flex onSides">
+                       <div></div>
+                       <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+               <tr>
+                   <th class="tableTime">18:00</th>
+                   <th class="flex onSides">
+                       <div></div>
+                       <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+               <tr>
+                   <th class="tableTime">19:00</th>
+                   <th class="flex onSides">
+                       <div></div>
+                       <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+               <tr>
+                   <th class="tableTime">20:00</th>
+                   <th class="flex onSides">
+                       <div></div>
+                       <button class="tableButtonAdd"></button>
+                   </th>
+               </tr>
+              </table>
+                 <div class="parts">
+                    <p class="partsHeaderDesc">Покупки:</p>
+                    <div class="partsCard">
+                        <div class="flex">
+                            <p class="partsPartNumber">88P96874Z12FQ</p>
+                            <img class="partsPartNumberImg" src="img/partNumber.svg" alt="">
+                        </div>
+                        <div class="flex">
+                            <img class="partsPartImg" src="img/filter1.png" alt="">
+                            <div class="partsDesc">
+                                <div class="flex onSides">
+                                <div>
+                                    <p class="partsSumText">Сумма заказа</p>
+                                    <div class="flex">
+                                        <p class="partsSum">1480</p>
+                                        <p class="partsQuantity">грн х10</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="partsPriceText">Цена</p>
+                                    <div class="flex">
+                                        <p class="partsPrice">148</p>
+                                        <p class="partsValute">грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex onSides">
+                                <div>
+                                    <p class="partsOrdered">Заказан</p>
+                                    <p class="partsOrderedDate">04.01.21</p>
+                                </div>
+                                <img class="partsOrderImg" src="img/order.svg" alt="">
+                                <div>
+                                    <p class="partsDelivered">Прибудет</p>
+                                    <p class="partsDeliveredDate">14.01.21</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <p class="partsFirm">Mann</p>
+                            <p class="partsNameOfPart">Маслянный фильтр w 811/80</p>
+                        </div>
+                        <div class="borderBottomParts"></div>
+                    </div>
+                    <div class="partsCard">
+                        <div class="flex">
+                            <p class="partsPartNumber">88P96874Z12FQ</p>
+                            <img class="partsPartNumberImg" src="img/partNumber.svg" alt="">
+                        </div>
+                        <div class="flex">
+                            <img class="partsPartImg" src="img/filter2.png" alt="">
+                            <div class="partsDesc">
+                                <div class="flex onSides">
+                                <div>
+                                    <p class="partsSumText">Сумма заказа</p>
+                                    <div class="flex">
+                                        <p class="partsSum">1480</p>
+                                        <p class="partsQuantity">грн х10</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="partsPriceText">Цена</p>
+                                    <div class="flex">
+                                        <p class="partsPrice">148</p>
+                                        <p class="partsValute">грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex onSides">
+                                <div>
+                                    <p class="partsOrdered">Заказан</p>
+                                    <p class="partsOrderedDate">04.01.21</p>
+                                </div>
+                                <img class="partsOrderImg" src="img/order.svg" alt="">
+                                <div>
+                                    <p class="partsDelivered">Прибудет</p>
+                                    <p class="partsDeliveredDate">14.01.21</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <p class="partsFirm">Mann</p>
+                            <p class="partsNameOfPart">Маслянный фильтр w 811/80</p>
+                        </div>
+                        <div class="borderBottomParts"></div>
+                    </div>
+                    <div class="partsCard">
+                        <div class="flex">
+                            <p class="partsPartNumber">88P96874Z12FQ</p>
+                            <img class="partsPartNumberImg" src="img/partNumber.svg" alt="">
+                        </div>
+                        <div class="flex">
+                            <img class="partsPartImg" src="img/filter3.png" alt="">
+                            <div class="partsDesc">
+                                <div class="flex onSides">
+                                <div>
+                                    <p class="partsSumText">Сумма заказа</p>
+                                    <div class="flex">
+                                        <p class="partsSum">1480</p>
+                                        <p class="partsQuantity">грн х10</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="partsPriceText">Цена</p>
+                                    <div class="flex">
+                                        <p class="partsPrice">148</p>
+                                        <p class="partsValute">грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex onSides">
+                                <div>
+                                    <p class="partsOrdered">Заказан</p>
+                                    <p class="partsOrderedDate">04.01.21</p>
+                                </div>
+                                <img class="partsOrderImg" src="img/order.svg" alt="">
+                                <div>
+                                    <p class="partsDelivered">Прибудет</p>
+                                    <p class="partsDeliveredDate">14.01.21</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <p class="partsFirm">Mann</p>
+                            <p class="partsNameOfPart">Маслянный фильтр w 811/80</p>
+                        </div>
+                        <div class="borderBottomParts"></div>
+                    </div>
+                    <div class="partsCard">
+                        <div class="flex">
+                            <p class="partsPartNumber">88P96874Z12FQ</p>
+                            <img class="partsPartNumberImg" src="img/partNumber.svg" alt="">
+                        </div>
+                        <div class="flex">
+                            <img class="partsPartImg" src="img/filter4.png" alt="">
+                            <div class="partsDesc">
+                                <div class="flex onSides">
+                                <div>
+                                    <p class="partsSumText">Сумма заказа</p>
+                                    <div class="flex">
+                                        <p class="partsSum">1480</p>
+                                        <p class="partsQuantity">грн х10</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="partsPriceText">Цена</p>
+                                    <div class="flex">
+                                        <p class="partsPrice">148</p>
+                                        <p class="partsValute">грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex onSides">
+                                <div>
+                                    <p class="partsOrdered">Заказан</p>
+                                    <p class="partsOrderedDate">04.01.21</p>
+                                </div>
+                                <img class="partsOrderImg" src="img/order.svg" alt="">
+                                <div>
+                                    <p class="partsDelivered">Прибудет</p>
+                                    <p class="partsDeliveredDate">14.01.21</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <p class="partsFirm">Mann</p>
+                            <p class="partsNameOfPart">Маслянный фильтр w 811/80</p>
+                        </div>
+                        <div class="borderBottomParts"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

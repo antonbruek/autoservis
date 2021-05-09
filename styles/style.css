@@ -52,6 +52,7 @@ img {
     --text-color-grey: rgba(108, 117, 125, 1);
     --text-color-number: rgba(206, 212, 218, 1);
     --text-color-border: #DEDEDE;
+    --text-color-individualDark: rgba(37, 37, 37, 1);
     
     --pure-color: rgba(215, 26, 33, 1);
     
@@ -76,7 +77,7 @@ img {
     --text-lineHeight: 140%;
 }
 body, html {
-    background: #E5E5E5;
+    background: var(--text-color-white);
 }
 a {
     text-decoration: none;

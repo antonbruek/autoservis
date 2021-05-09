@@ -1,0 +1,128 @@
+.header {
+    height: 90px;
+    background-color: var(--text-color-individualDark);
+}
+.header ul {
+    list-style-type: none;
+    margin-left: 138px;
+    align-items: center;
+}
+.header li {
+    font-size: var(--text-size-s);
+    font-family: var(--roboto);
+    color: var(--text-color-white);
+    line-height: 22px;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.header li:nth-child(1) {
+    margin-right: 46px;
+}
+.active {
+    border-bottom: 1px solid var(--pure-color)
+}
+.header img {
+    width: 29px;
+    height: 29px;
+    margin-right: 147px;
+    margin-top: 31px;
+    cursor: pointer;
+}
+.leftMenu ul {
+    list-style-type: none;
+    margin-top: 44px;
+    width: 126px;
+    height: 520px;
+}
+.leftMenu li {
+    margin-left: 38px;
+    padding: 8px;
+    margin-bottom: 34px;
+    font-size: var(--text-size-xxs);
+    font-family: var(--roboto);
+    color: var(--text-color-grey);
+    line-height: 16px;
+}
+.border {
+    border-right: 2px solid var(--pure-color);
+    height: 520px;
+    margin: 20px 0px;
+}
+.content {
+    margin: 20px 147px 79px 22px;
+}
+.activeMenu {
+    border-left: 2px solid var(--pure-color)
+}
+
+
+.formAdd label {
+    font-size: var(--text-size-s);
+    font-family: var(--font-regular);
+    color: var(--text-color-individualDark);
+    line-height: 22px;
+}
+.formAdd input[type=text] {
+    font-size: var(--text-size-s);
+    font-family: var(--roboto);
+    color: var(--text-color-lighter);
+    line-height: 21px;
+    padding-left: 16.66px;
+    background-image: url(../img/down.svg);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px     0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    width: 270px;
+    height: 40px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.formAdd input[type=submit] {
+    font-size: var(--text-size-s);
+    font-family: var(--roboto);
+    color: var(--text-color-white);
+    line-height: 21px;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: var(--text-color-regular);
+}
+.workshopsCard {
+    width: 205px;
+    height: 349px;
+    border-radius: 15px; 
+}
+.workshopsCard img {
+    display: block;
+}
+.workshopsCard:nth-child(n+2) {
+    margin-left: 30px;
+}
+.workshopsInf {
+    padding: 15px 15px 19px 15px;
+}
+.workshopTime {
+    font-size: var(--text-size-xs);
+    font-family: var(--bold-font);
+    color: var(--text-color-lighter);
+    line-height: 19px;
+    margin-bottom: 15px;
+}
+.workshopAddress {
+    font-size: var(--text-size-xs);
+    font-family: var(--roboto);
+    color: var(--text-color-regular);
+    line-height: 19px;
+    margin-bottom: 15px;
+}
+.workshopTypeOfRepair {
+    font-size: var(--text-size-xs);
+    font-family: var(--regular-font);
+    color: var(--text-color-lighter);
+    line-height: 19px;
+}

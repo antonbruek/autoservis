@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>workShops</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/workshops.css">
+</head>
+<body>
+    <div class="header flex onSides">
+        <ul class="flex">
+            <li class="active">Точки</li>
+            <li>Запчасти</li>
+        </ul>
+        <img src="img/authorization.svg" alt="">
+    </div>
+    <div class="flex leftMenu">
+        <ul>
+            <li class="activeMenu">Точки</li>
+            <li>Запчасти</li>
+        </ul>
+        <div class="border"></div>
+        <div class="content">
+            <form class="formAdd flex" action="post">
+               <div class="col">
+                <label for="">Выберите город</label>
+                <input type="text" placeholder="адрес">
+               </div>
+               <div class="col">
+                   <label for="">Выберите СТО</label>
+                   <input type="text" placeholder="адрес СТО">
+               </div>
+               <div class="col">
+                    <label for="">Услуга</label>
+                    <input type="text" placeholder="услуга">
+               </div>
+               <input type="submit" value="добавить точку">
+            </form>
+             <div class="workshopsCards flex">
+            <div class="workshopsCard">
+                <img src="img/workshop1.png" alt="">
+                <div class="workshopsInf">
+                <p class="workshopTime">09:00-20:00</p>
+                <p class="workshopAddress">точка 1, ул Пушкина д.29 ст. А</p>
+                <p class="workshopTypeOfRepair">кузовной ремонт</p>
+                </div>
+            </div>
+            <div class="workshopsCard">
+                <img src="img/workshop2.png" alt="">
+                <div class="workshopsInf">
+                <p class="workshopTime">09:00-20:00</p>
+                <p class="workshopAddress">точка 1, ул Пушкина д.29 ст. А</p>
+                <p class="workshopTypeOfRepair">кузовной ремонт</p>
+                </div>
+            </div>
+            <div class="workshopsCard">
+                <img src="img/workshop3.png" alt="">
+                <div class="workshopsInf">
+                <p class="workshopTime">09:00-20:00</p>
+                <p class="workshopAddress">точка 1, ул Пушкина д.29 ст. А</p>
+                <p class="workshopTypeOfRepair">кузовной ремонт</p>
+                </div>
+            </div>
+            <div class="workshopsCard">
+                <img src="img/workshop4.png" alt="">
+                <div class="workshopsInf">
+                <p class="workshopTime">09:00-20:00</p>
+                <p class="workshopAddress">точка 1, ул Пушкина д.29 ст. А</p>
+                <p class="workshopTypeOfRepair">кузовной ремонт</p>
+                </div>
+            </div>
+            <div class="workshopsCard">
+                <img src="img/workshop1.png" alt="">
+                <div class="workshopsInf">
+                <p class="workshopTime">09:00-20:00</p>
+                <p class="workshopAddress">точка 1, ул Пушкина д.29 ст. А</p>
+                <p class="workshopTypeOfRepair">кузовной ремонт</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.truckCard {
+    width: 384px;
+    height: 332px;
+    background-color: var(--text-color-white);
+    border-radius: 20px;
+    position: relative;
+}
+.truckCard img {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 324px;
+    top: 17px;
+}
+.truckCard p {
+    font-size: var(--text-size-s);
+    font-family: var(--regular-font);
+    color: var(--text-color-regular);
+    line-height: 22px;
+    width: 274px;
+    height: 68px;
+    margin-left: 38px;
+    margin-bottom: 30px;
+    margin-top: 27px
+}
+.truckCard input {
+    margin-right: 39px;
+    margin-left: 38px;
+    padding-left: 21px;
+    font-size: var(--text-size-s);
+    font-family: var(--regular-font);
+    color: var(--text-color-lighter);
+    line-height: 22px;
+    height: 40px;
+    border: 1px solid var(--text-color-number);
+    border-radius: 5px;
+}
+.inputName {
+    margin-bottom: 20px;
+}
+.truckCardButton {
+    margin-top: 30px;
+    width: 307px;
+    height: 50px;
+    margin-left: 38px;
+}

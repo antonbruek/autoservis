@@ -1,0 +1,79 @@
+.content {
+    margin-right: 65px;
+    width: 1322px;
+}
+.form {
+    border: 1px solid var(--text-color-grey);
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 1145px;
+    height: 70px;
+    margin-bottom: 30px;
+}
+.form input {
+    border: none;
+    font-size: var(--text-size-s);
+    font-family: var(--roboto);
+    color: var(--text-color-grey);
+    line-height: 21px;
+    width: 189px;
+    height: 60px;
+    text-align: center;
+    margin: 5px 0px;
+}
+.form input:nth-child(1) {
+    margin-left: 5px;
+}
+.formDownImg {
+    width: 12px;
+    height: 6px;
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.formDownImg:nth-child(7n) {
+    margin-left: 5px;
+}
+.formBorder {
+    height: 40px;
+    background: var(--text-color-grey);
+    margin: 0px 10px;
+    width: 1px;
+    display: flex;
+    align-self: center;
+}
+.partsCategory {
+    font-size: var(--text-size-20);
+    font-family: var(--roboto);
+    color: var(--text-color-individualDark);
+    line-height: 23px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    max-width: 280px;
+}
+.partsDetail {
+    font-size: var(--text-size-xxs);
+    font-family: var(--roboto);
+    color: var(--text-color-individualDark);
+    line-height: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.partsDetail span {
+    font-size: var(--text-size-xxs);
+    font-family: var(--roboto);
+    color: var(--text-color-number);
+    line-height: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.partsCategoryFilters, .partsCategoryOils, .partsCategoryElectric {
+    margin-top: 30px;
+}
+.partsCategoryIgnitionElectric, .partsCategoryBrake {
+    margin-top: 47px;
+}
+.partsCategoryBrakeSystem {
+    margin-top: 92px;
+}

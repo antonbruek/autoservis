@@ -1,0 +1,25 @@
+.servicesCardHover {
+    background-color: var(--text-color-regular);
+    width: 323px;
+    border-radius: 15px;
+}
+.servicesCardHover img {
+    width: 323px;
+    height: 240px;
+}
+.servicesCardButton {
+    font-size: var(--text-size-xs);
+  font-family: var(--regular-font);
+    font-weight: 600;
+    color: var(--text-color-white);
+  line-height: 19px;
+    background-color: var(--pure-color);
+    border: none;
+    padding: 17.5px 16px 17.5px 16px;
+    border-radius: 5px;
+    width: 92px;
+    height: 54px;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    margin-left: 115px;
+}

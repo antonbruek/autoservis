@@ -1,0 +1,52 @@
+.authorization {
+    width: 440px;
+    height: 450px;
+    background-color: var(--text-color-regular);
+    border-radius: 30px;
+}
+.authorization label {
+    margin-top: 40px;
+    margin-left: 103px;
+    margin-bottom: 10px;
+    font-size: var(--text-size-s);
+  font-family: var(--roboto);
+    color: var(--text-color-white);
+  line-height: 21px;
+}
+.authorization p {
+    font-size: var(--text-size-xxl);
+  font-family: var(--bold-font);
+    color: var(--text-color-white);
+  line-height: 58px;
+    padding-top: 22px;
+    text-align: center;
+}
+.authorizationInput {
+    font-size: var(--text-size-s);
+  font-family: var(--roboto);
+    color: rgba(37, 37, 37, 0.3);
+  line-height: 21px;
+    padding-left: 21px;
+    width: 220px;
+    height: 41px;
+    margin-left: 103px;
+    border: 1px solid #6C757D;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.authorizationButton {
+    font-size: var(--text-size-xs);
+    font-family: var(--regular-font);
+    font-weight: 600;
+    color: var(--text-color-white);
+    line-height: 19px;
+    background-color: var(--pure-color);
+    border: none;
+    padding: 17.5px 16px 17.5px 16px;
+    border-radius: 5px;
+    width: 80px;
+    height: 54px;
+    margin-top: 60px;
+    margin-bottom: 34px;
+    margin-left: 180px;
+}
