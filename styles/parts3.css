@@ -1,0 +1,226 @@
+.leftMenu ul {
+    margin-top: 27px;
+}
+.content {
+    margin-top: 21px;
+    width: 100%
+}
+.partsFindQuantityPositions {
+    margin-top: 21px;
+}
+.buttonBack {
+    margin-right: 26px;
+}
+.partsHeaderDetail {
+    font-size: var(--text-size-l);
+    font-family: var(--regular-font);
+    color: var(--text-color-individualDark);
+    line-height: 29px;
+    font-weight: 500;
+}
+.partsFindQuantityPositions {
+    font-size: var(--text-size-xxs);
+    font-family: var(--regular-font);
+    color: var(--text-color-number);
+    line-height: 17px;
+}
+.partsFilter {
+    width: 205px;
+    height: 40px;
+    padding-left: 5.12px;
+    border: 1px solid var(--text-color-lighter);;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px     0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    font-size: var(--text-size-xxs);
+    font-family: var(--regular-font);
+    color: var(--text-color-lighter);
+    line-height: 17px;
+    background-image: url(../img/down.svg);
+    background-repeat: no-repeat;
+    background-position: 180px center;
+}
+.strips {
+    width: 22px;
+    height: 22px;
+    align-self: center;
+    margin-left: 20px;
+}
+.squares {
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    margin-left: 20px;
+}
+.partsFilters {
+    margin-top: -7px;
+    justify-content: flex-end;
+}
+.partsAvailableGoods {
+    font-size: var(--text-size-xxs);
+    font-family: var(--roboto);
+    color: var(--text-color-grey);
+    line-height: 16px;
+    font-weight: 400;
+    display: flex;
+    align-self: center;
+    margin-top: 6px;
+}
+.partsFilterOn {
+    padding: 5px 10px 5px 5px;
+    font-size: var(--text-size-xxs);
+    font-family: var(--regular-font);
+    color: var(--text-color-individualDark);
+    line-height: 16px;
+    border: 1px solid #D71A21;
+    box-sizing: border-box;
+    border-radius: 70px;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+.partsFilterOn img {
+    width: 8.12px;
+    height: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.partsOptions {
+    width: 205px;
+    height: 504px;
+    background: rgba(246, 246, 246, 1);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.partsOptionsSelection {
+    font-size: var(--text-size-xs);
+    font-family: var(--bold-font);
+    color: var(--text-color-individualDark);
+    line-height: 19px;
+    padding-top: 31px;
+    text-align: center;
+}
+.partsOptionsPrice, .partsOptionsFilter, .partsOptionsManufacturer {
+    font-size: var(--text-size-xs);
+    font-family: var(--regular-font);
+    color: var(--text-color-individualDark);
+    line-height: 19px;
+    margin-left: 14px;
+    margin-top: 21px;
+}
+.partsOptionsFilter, .partsOptionsManufacturer {
+    margin-top: 20px;
+}
+.partsOptionsHeaderForm {
+    margin-top: 10px;
+}
+.partsOptionsHeaderForm input[type="text"] {
+    width: 45px;
+    height: 28px;
+    font-size: 13px;
+    font-family: var(--regular-font);
+    color: var(--text-color-number);
+    line-height: 16px;
+    padding-left: 3px;
+    border: 0.5px solid #ABB5BE;
+    border-radius: 3px;
+}
+.partsOptionsHeaderForm input[type="text"]:nth-child(1) {
+    margin-left: 14px;
+}
+.partsOptionsBorder {
+    width: 14px;
+    height: 1px;
+    background-color: var(--text-color-number);
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-self: center;
+}
+.partsOptionsHeaderForm input[type="submit"] {
+    width: 30px;
+    font-size: var(--text-size-xxs);
+    font-family: var(--regular-font);
+    color: var(--pure-color);
+    line-height: 17px;
+    border: 0.5px solid var(--pure-color);
+    border-radius: 3px;
+    background-color: var(--text-color-white);
+    margin-left: 24px;
+    cursor: pointer;
+}
+.partsOptionsFilterType input, .partsOptionsFilterManufacturer input {
+    margin-top: 9px;
+    margin-left: 14px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 0.5px solid #CED4DA;
+    border-radius: 3px;
+}
+.partsOptionsFilterType input:checked {
+    background: #D71A21;
+}
+.partsOptionsFilterType p, .partsOptionsFilterManufacturer p {
+    font-size: var(--text-size-xs);
+    font-family: var(--regular-font);
+    color: var(--text-color-individualDark);
+    line-height: 19px;
+    vertical-align: middle;
+    display: flex;
+    align-self: flex-end;
+    margin-left: 15px;
+}
+.cardsParts {
+    margin-top: 14px;
+    flex-wrap: wrap;
+}
+.cardParts {
+    width: 205px;
+    height: 349px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.cardsPartsManufacturer {
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    font-size: var(--text-size-xs);
+    font-family: var(--bold-font);
+    color: var(--text-color-individualDark);
+    line-height: 19px;
+}
+.cardsPartsDesc {
+    font-size: var(--text-size-xs);
+    font-family: var(--regular-font);
+    color: var(--text-color-individualDark);
+    line-height: 19px;
+    margin-bottom: 26px;
+    margin-left: 10px;
+    width: 152px;
+}
+.cardsPartsPrice {
+    margin-left: 6px;
+    font-size: var(--text-size-s);
+    font-family: var(--regular-font);
+    color: var(--text-color-individualDark);
+    line-height: 22px;
+}
+.cardsPartsValute {
+    margin-left: 8px;
+    font-size: 13px;
+    font-family: var(--regular-font);
+    color: var(--text-color-number);
+    line-height: 22px;
+}
+.cardsPartsButton {
+    font-size: var(--text-size-xs);
+    font-family: var(--regular-font);
+    color: var(--text-color-white);
+    line-height: 19px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--pure-color);
+    padding: 5.5px 4px;
+    margin-right: 10px;
+}

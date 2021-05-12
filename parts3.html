@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/calendar.css">
+    <link rel="stylesheet" href="styles/parts3.css">
+</head>
+<body>
+    <div class="header flex onSides">
+        <ul class="flex">
+            <li class="active">Точки</li>
+            <li>Запчасти</li>
+        </ul>
+        <img src="img/authorization.svg" alt="">
+    </div>
+    <div class="flex leftMenu">
+        <ul>
+            <li class="activeMenu">Точки</li>
+            <li>Запчасти</li>
+        </ul>
+        <div class="border"></div>
+        <div class="content">
+            <div class="flex">
+                <button class="buttonBack">Назад</button>
+                <p class="partsHeaderDetail">Маслянный фильтр</p>
+            </div>
+            <p class="partsFindQuantityPositions">Найдено 1234 позиций</p>
+            <div class="partsFilters flex">
+                <input class="partsFilter" type="text" placeholder="от дешевых к дорогим">
+                <img class="strips" src="img/3strips.svg" alt="">
+                <img class="squares" src="img/4squares.svg" alt="">
+            </div>
+            <div class="flex">
+                <p class="partsAvailableGoods">Доступно 989 товаров</p>
+                <p class="partsFilterOn">Маслянный фильтр<img src="img/escRedSmall.svg" alt=""></p>
+                <p class="partsFilterOn">Mann<img src="img/escRedSmall.svg" alt=""></p>
+            </div>
+            <div class="flex">
+                <div class="partsOptions">
+                    <p class="partsOptionsSelection">Подбор по параметрам</p>
+                    <p class="partsOptionsPrice">Цена</p>
+                    <form class="partsOptionsHeaderForm flex" action="post">
+                        <input type="text" placeholder="От">
+                        <div class="partsOptionsBorder"></div>
+                        <input type="text" placeholder="До">
+                        <input type="submit" value="OK">
+                    </form>
+                    <p class="partsOptionsFilter">Фильтр</p>
+                    <form class="partsOptionsFilterType col" action="post">
+                        <div class="flex">
+                        <input type="checkbox" checked value="Маслянный"><p>Маслянный</p></div>
+                        <div class="flex">
+                        <input type="checkbox" value="Воздушный"><p>Воздушный</p></div>
+                        <div class="flex">
+                        <input type="checkbox" value="Топливный"><p>Топливный</p></div>
+                        <div class="flex">
+                        <input type="checkbox" value="Салон"><p>Салон</p></div>
+                    </form>
+                    <p class="partsOptionsManufacturer">Производитель</p>
+                    <form class="partsOptionsFilterManufacturer col" action="post">
+                        <div class="flex">
+                        <input type="checkbox" value="K&N Filtres"><p>K&N Filtres</p></div>
+                        <div class="flex">
+                        <input type="checkbox" value="Mahle"><p>Mahle</p></div>
+                        <div class="flex">
+                        <input type="checkbox" value="Mazda"><p>Mazda</p></div>
+                        <div class="flex">
+                        <input type="checkbox" checked value="Mann"><p>Mann</p></div>
+                        <div class="flex">
+                        <input type="checkbox" value="Purflux"><p>Purflux</p></div>
+                    </form>
+                </div>
+                <div class="cardsParts flex">
+                    <div class="cardParts">
+                        <img src="img/filter205x201second.png" alt="">
+                        <p class="cardsPartsManufacturer">Mann</p>
+                        <p class="cardsPartsDesc">Маслянный фильтр w 811/80</p>
+                        <div class="flex onSides">
+                            <div class="flex middle">
+                            <p  class="cardsPartsPrice">148</p><span class="cardsPartsValute">грн</span></div>
+                            <button class="cardsPartsButton">заказать</button>
+                        </div>
+                    </div>
+                    <div class="cardParts">
+                        <img src="img/filter205x201tree.png" alt="">
+                        <p class="cardsPartsManufacturer">Mann</p>
+                        <p class="cardsPartsDesc">Маслянный фильтр w 79</p>
+                        <div class="flex onSides">
+                            <div class="flex middle">
+                            <p  class="cardsPartsPrice">170</p><span class="cardsPartsValute">грн</span></div>
+                            <button class="cardsPartsButton">заказать</button>
+                        </div>
+                    </div>
+                    <div class="cardParts">
+                        <img src="img/filter205x201four.png" alt="">
+                        <p class="cardsPartsManufacturer">Mann</p>
+                        <p class="cardsPartsDesc">Маслянный фильтр w 914/2 </p>
+                        <div class="flex onSides">
+                            <div class="flex middle">
+                            <p  class="cardsPartsPrice">215</p><span class="cardsPartsValute">грн</span></div>
+                            <button class="cardsPartsButton">заказать</button>
+                        </div>
+                    </div>
+                    <div class="cardParts">
+                        <img src="img/filter205x205first.png" alt="">
+                        <p class="cardsPartsManufacturer">Mann</p>
+                        <p class="cardsPartsDesc">Маслянный фильтр w 7015</p>
+                        <div class="flex onSides">
+                            <div class="flex middle">
+                            <p  class="cardsPartsPrice">230</p><span class="cardsPartsValute">грн</span></div>
+                            <button class="cardsPartsButton">заказать</button>
+                        </div>
+                    </div>
+                    <div class="cardParts">
+                        <img src="img/filter205x201four.png" alt="">
+                        <p class="cardsPartsManufacturer">Mann</p>
+                        <p class="cardsPartsDesc">Маслянный фильтр w 914/2 </p>
+                        <div class="flex onSides">
+                            <div class="flex middle">
+                            <p  class="cardsPartsPrice">215</p><span class="cardsPartsValute">грн</span></div>
+                            <button class="cardsPartsButton">заказать</button>
+                        </div>
+                    </div>
+                    <div class="cardParts">
+                        <img src="img/filter205x201first.png" alt="">
+                        <p class="cardsPartsManufacturer">Mann</p>
+                        <p class="cardsPartsDesc">Маслянный фильтр w 719/7x</p>
+                        <div class="flex onSides">
+                            <div class="flex middle">
+                            <p  class="cardsPartsPrice">148</p><span class="cardsPartsValute">грн</span></div>
+                            <button class="cardsPartsButton">заказать</button>
+                        </div>
+                    </div>
+                    <div class="cardParts">
+                        <img src="img/filter205x201tree.png" alt="">
+                        <p class="cardsPartsManufacturer">Mann</p>
+                        <p class="cardsPartsDesc">Маслянный фильтр w 811/80</p>
+                        <div class="flex onSides">
+                            <div class="flex middle">
+                            <p  class="cardsPartsPrice">148</p><span class="cardsPartsValute">грн</span></div>
+                            <button class="cardsPartsButton">заказать</button>
+                        </div>
+                    </div>
+                    <div class="cardParts">
+                        <img src="img/filter205x205first.png" alt="">
+                        <p class="cardsPartsManufacturer">Mann</p>
+                        <p class="cardsPartsDesc">Маслянный фильтр w 811/80</p>
+                        <div class="flex onSides">
+                            <div class="flex middle">
+                            <p  class="cardsPartsPrice">148</p><span class="cardsPartsValute">грн</span></div>
+                            <button class="cardsPartsButton">заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

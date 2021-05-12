@@ -139,6 +139,9 @@ a {
 .around {
     justify-content: space-around;
 }
+.middle {
+    align-self: center;
+}
 .relative {
     position: relative;
 }
