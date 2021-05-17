@@ -7,7 +7,7 @@
     margin-left: 138px;
     align-items: center;
 }
-.header li {
+.header li a{
     font-size: var(--text-size-s);
     font-family: var(--roboto);
     color: var(--text-color-white);
@@ -30,18 +30,21 @@
 }
 .leftMenu ul {
     list-style-type: none;
-    margin-top: 44px;
-    width: 126px;
+    margin-top: 37px;
+    min-width: 118px;
     height: 520px;
 }
-.leftMenu li {
-    margin-left: 38px;
-    padding: 8px;
-    margin-bottom: 34px;
+.leftMenu li a{
+    
     font-size: var(--text-size-xxs);
     font-family: var(--roboto);
     color: var(--text-color-grey);
     line-height: 16px;
+}
+.leftMenu li {
+    margin-left: 22px;
+    padding: 8px;
+    margin-bottom: 34px;
 }
 .border {
     border-right: 2px solid var(--pure-color);

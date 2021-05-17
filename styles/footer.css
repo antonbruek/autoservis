@@ -2,21 +2,22 @@
     background-color: rgba(0, 0, 0, 1);
     height: 200px;
 }
+.footerInf {
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 33px;
+}
 .footerLogo {
     color: var(--text-color-white);
     font-size: var(--text-size-xl);
     font-family: var(--bold-font);
     line-height: 44px;
-    margin-left: var(--spacing-l);
-    display: flex;
-    align-items: center;
 }
 .footerServices p, .footerContacts p {
     color: var(--pure-color);
     font-size: var(--text-size-s);
     font-family: var(--bold-font);
     line-height: 22px;
-    margin-top: 16px;
     margin-bottom: 15px;
 }
 .footerServices a, .footerContacts a {
@@ -27,15 +28,75 @@
     margin-bottom: 10px;
 } 
 .footerServices a:nth-child(5) {
-    margin-right: 59px;
+    margin-right: 35px;
 }
-.footerButtons {
-    margin-right: var(--spacing-l);
-}
+
 .footerButtonTruck {
-    margin-top: 19px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-left: 61px;
 }
-.footerButtonRepair {
-    margin-right: 30px;
+@media screen and (min-width: 500px) {
+    .footerInf {
+        text-align: center
+    }
+}
+@media screen and (max-width: 767px) {
+    .footer {
+        height: auto;
+    }
+    .footerInf {
+        flex-direction: column;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 30px;
+    }
+    .footerInf div {
+        flex-direction: column;
+    }
+    .footerButtons {
+        flex-direction: row-reverse!important;
+        justify-content: space-between;
+        margin-left: 35px;
+        margin-right: 34px;
+        margin-top: 20px;
+    }
+    .footerButtonTruck {
+        width: 93px!important;
+    }
+    .footerServices p, .footerContacts p {
+        margin-top: 32px;
+        margin-bottom: 20px;
+        font-size: var(--text-size-xs);
+        line-height: 19px;
+    }
+    .footerServices a, .footerContacts a {
+        font-size: 13px;
+        line-height: 16px;
+    } 
+    .footerServices a:nth-child(5) {
+    margin-right: 0px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+    .footerInf {
+        margin-top: 20px;
+    }
+    .footerLogo {
+        margin-left: 30px;
+        font-size: var(--text-size-l);
+        margin-right: 10px;
+    }
+    
+    .footerButtonRepair {
+        width: 130px!important;
+    }
+    .footerButtonTruck {
+        margin-left: 20px;
+    }
+    .footerButtons {
+        margin-right: 30px;
+        width: 20%;
+        margin-left: 10px;
+        
+    }
 }

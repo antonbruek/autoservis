@@ -34,7 +34,7 @@ img {
     --roboto: 'Roboto', sans-serif;
     
     --border-radius: 16.5px;
-    --spacing-xxxl: 80px;
+    --spacing-xxxl: 120px;
     --spacing-xxl: 60px;
     --spacing-xl: 40px;
     --spacing-l: 30px;
@@ -88,7 +88,7 @@ a {
 .centerSite {
     margin-left: auto;
     margin-right: auto;
-    width: 1180px;
+    width: 970px;
 }
 @media screen and (max-width: 480px) {
     .centerSite {
@@ -138,6 +138,9 @@ a {
 }
 .around {
     justify-content: space-around;
+}
+.center {
+    justify-content: center;
 }
 .middle {
     align-self: center;

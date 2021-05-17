@@ -1,9 +1,10 @@
-.leftMenu ul {
-    margin-top: 27px;
-}
 .content {
+    margin-right: 147px;
     margin-top: 21px;
     width: 100%
+}
+.leftMenu ul {
+    margin-top: 27px;
 }
 .partsFindQuantityPositions {
     margin-top: 21px;
@@ -85,7 +86,7 @@
     cursor: pointer;
 }
 .partsOptions {
-    width: 205px;
+    min-width: 205px;
     height: 504px;
     background: rgba(246, 246, 246, 1);
     border-radius: 15px;
@@ -156,10 +157,30 @@
     background-color: white;
     border: 0.5px solid #CED4DA;
     border-radius: 3px;
+    position: relative;
 }
-.partsOptionsFilterType input:checked {
-    background: #D71A21;
-}
+.partsOptionsFilterType input[type=checkbox]:after, .partsOptionsFilterManufacturer input[type=checkbox]:after {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    content: " ";
+    background-color: white;
+    border: 0.5px solid #CED4DA;
+    border-radius: 3px;
+    display: inline-block;
+    visibility: visible;
+  }
+  
+ .partsOptionsFilterType input[type=checkbox]:checked:after, .partsOptionsFilterManufacturer input[type=checkbox]:checked:after {
+   background-image: url(../img/checkMark.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+    background-color: #D71A21;
+     border: none;
+     width: 20px;
+     height: 20px;
+  }
 .partsOptionsFilterType p, .partsOptionsFilterManufacturer p {
     font-size: var(--text-size-xs);
     font-family: var(--regular-font);
@@ -223,4 +244,5 @@
     background-color: var(--pure-color);
     padding: 5.5px 4px;
     margin-right: 10px;
+    cursor: pointer;
 }

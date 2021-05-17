@@ -10,7 +10,7 @@
     <div class="header">
         <img class="headerImg absolute comp" src="img/header.png" alt="header">
         <img src="img/headerMobile.png" alt="" class="mobile absolute">
-        <div class="absolute header__inf">
+        <div class="relative header__inf">
            <div class="nav flex">
            <a href="#" class="logo">Motorheart</a>
             <ul class="menu">
@@ -21,7 +21,9 @@
             </ul>
             </div>
         <h2 class="header__logo">Motorheart</h2>
+        <div class="flex center">
         <p class="header__desc">Выбирайте удобный для вас день и время для обслуживания вашего авто. </p>
+        </div>
         <div class="header__buttons">
             <button class="uppercase header__repair buttonRepair">ремонт</button>
             <button class="uppercase buttonTruck">эвакуатор</button>
@@ -51,9 +53,9 @@
     </div>
     <div class="serviceVisit">
         <h2 class="serviceHeader">Вы можете выбрать удобный для вас день и время для посещения сервиса</h2>
-        <div>
+        <div class="flex">
             <form action="post" class="">
-                <div class="flex">
+                <div class="serviceVisitAllInf flex">
                 <div class="formText">
                 <input class="inputText inputBreakdown" type="text" placeholder="Вид поломки">
                 <input class="inputText" type="text" placeholder="марка и модель автомобиля">
@@ -166,14 +168,12 @@
     <div class="company">
        <h2 class="aboutCompany">О компании</h2>
         <div class="flex onSides">
-           <div class="relative">
             <img class="companyImg" src="img/company.png" alt="">
-            </div>
             <div>
-               <p class="companyTextMain"><span>Motorheart</span> профессиональный автосервис для качественного ремонта и обслуживания Вашего автомобиля. Наши специалисты выполнят работы любой сложности в различных видах ремонта автомобилей, таких как ремонт АКПП, ДВС,<br>топливных систем, электрики, ходовой части автомобилей, систем кондиционирования и многих других.</p>
-                <p class="companyTextWeHave">У нас есть свой магазин автозапчастей, функционирующий более 12 лет, за это время сумевший заработать тысячи постоянных клиентов и хорошую репутацию на рынке автозапчастей. Быстрый и качественный подбор необходимых деталей и сопутствующих товаров, в разы ускоряет процесс ремонта автомобилей. В магазине работают опытные менеджеры, которые без труда найдут все необходимое для вашего авто и доставят в минимальные сроки.</p>
+               <p class="companyTextMain"><span>Motorheart</span> профессиональный автосервис для качественного ремонта и обслуживания Вашего автомобиля. 
+                <p class="companyTextWeHave">У нас есть свой магазин автозапчастей, функционирующий более 12 лет, за это время сумевший заработать тысячи постоянных клиентов и хорошую репутацию на рынке автозапчастей. Быстрый и качественный подбор необходимых деталей и сопутствующих товаров, в разы ускоряет процесс ремонта автомобилей.</p>
                 <p class="companytextChoose">Выбирайте удобное день и время для посещения сервиса.</p>
-                <button class="buttonRepair uppercase">ремонт</button>
+                <button class="buttonRepair companyButton uppercase">ремонт</button>
             </div>
         </div>
     </div>
@@ -202,12 +202,13 @@
                     <a href="#">сб-вс: с 09:00 до 15:00</a>
                 </div>
             </div>
-            <div>
+            <div class="map">
                 <img src="img/map.png" alt="">
             </div>
         </div>
     </div>
     <div class="footer flex onSides">
+        <div class="footerInf flex onSides">
         <p class="footerLogo">Motorheart</p>
         <div class="flex">
             <div class="footerServices col">
@@ -227,6 +228,7 @@
         <div class="footerButtons col">
             <button class="footerButtonTruck buttonTruck uppercase">эвакуатор</button>
             <button class="footerButtonRepair buttonRepair uppercase">ремонт</button>
+        </div>
         </div>
     </div>
 </body>

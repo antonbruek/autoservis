@@ -6,26 +6,28 @@
     }
 .headerImg {
     height: 550px;
+    
 }
 .header__inf {
-    margin-left: var(--spacing-l);
-    margin-right: var(--spacing-l);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 970px;
 }
-.nav {
-    margin-top: 16px;
-}
+
 .logo {
+    margin-top: 16px;
     font-size: var(--text-size-xxl);
     font-family: var(--bold-font);
     line-height: 58px;
     color: var(--text-color-white);
-    margin-right: 36px;
+    margin-right: 135px;
 }
 .menu {
     display: flex;
     font-size: var(--text-size-s);
     font-family: var(--roboto);
     line-height: 58px;
+    margin-top: 16px;
     list-style-type: none;
     font-weight: 400;
     text-align: center;
@@ -34,12 +36,8 @@
 .menu li a{
     color: var(--text-color-white);
 }
-.menu li:nth-child(2) {
-    margin-right: 133px;
-    margin-left: 148px;
-}
-.menu li:nth-child(3) {
-    margin-right: 136px;
+.menu li:nth-child(-n+3) {
+    margin-right: 60px;
 }
 .header__logo {
     font-size: var(--text-size-xl);
@@ -47,6 +45,7 @@
     line-height: 44px;
     color: var(--text-color-white);
     margin-top: 89px;
+    text-align: center;
 }
 .header__desc {
     font-size: var(--text-size-l);
@@ -54,17 +53,19 @@
     line-height: 47px;
     color: var(--text-color-white);
     margin-top: 27px;
-    max-width: 484px;
+    width: 484px;
+    text-align: center;
+    
 }
 .header__buttons {
-    margin-top: 82px;
+    margin-top: 30px;
+    text-align: center;
 }
 .header__repair {
     margin-right: var(--spacing-m)
 }
 @media screen and (max-width: 767px) {
     .nav {
-        margin-top: 25px;
         width: 100%;
         margin-left: 0px;
     }
@@ -72,21 +73,20 @@
         font-size: var(--text-size-xl);
         line-height: 44px;
         margin: auto;
+        margin-top: 145px;
     }
     .menu {
         display: none
     }
     .header__logo {
-        font-size: var(--text-size-l);
-        margin-top: 61px;
-        line-height: 29px;
+        display: none
     }
     .header__desc {
         font-size: var(--text-size-s);
         line-height: 194%;
         min-width: 304px;
         max-width: 751px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .header__buttons {
         display: flex;
@@ -107,6 +107,12 @@
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .logo {
+        margin-left: 30px;
+    }
+    .menu li:nth-child(1) {
+        margin-right: 0px;
+    }
     .menu li:nth-child(2) {
     margin-right: 23px;
     margin-left: 23px;

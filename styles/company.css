@@ -1,17 +1,18 @@
 .company {
-    margin-top: var(--spacing-xxxl);
-    margin-left: var(--spacing-l);
-    margin-right: var(--spacing-l);
+    margin-top: 60px;
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 30px;
+    padding: 60px 118px 60px 118px;
     clear: both;
 }
 .companyImg {
     object-fit: cover;
-    max-height: 750px;
-}
-
-.company div div {
-    width: calc(50% - 14.5px);
-        
+    max-height: 438px;
+    width: 394px;
+    margin-right: 76px;
 }
 .aboutCompany {
     font-size: var(--text-size-xl);
@@ -19,24 +20,14 @@
     line-height: 44px;
     color: var(--text-color-regular);
     text-align: center;
-    margin-bottom: 63px;
+    margin-bottom: 59.96px;
 }
 
 .companyTextMain {
-    width: 797px;
-    height: 190px;
-    margin-top: 123px;
-    background-color: var(--text-color-regular);
-    padding-left: 42px;
-    padding-right: 48px;
-    color: var(--text-color-white);
-    font-size: var(--text-size-l);
+    color: var(--text-color-regular);
+    font-size: var(--text-size-20);
     font-family: var(--regular-font);
-    line-height: 31.66px;
-    border-radius: 30px 0px 0px 30px;
-    position: sticky;
-    margin-left: calc(100% - 857px);
-    margin-right: 0px;
+    line-height: 24px;
 }
 .companyTextMain span {
     font-family: var(--bold-font);
@@ -45,14 +36,42 @@
     color: var(--text-color-regular);
     font-size: var(--text-size-20);
     font-family: var(--regular-font);
-    line-height: 144.19%;
-    margin-top: 50px;
-    margin-bottom: 40px; 
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px; 
 }
 .companytextChoose {
     color: var(--text-color-regular);
     font-size: var(--text-size-20);
     font-family: var(--regular-font);
     line-height: 144.19%;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+.companyButton {
+    margin-left: 29px;
+}
+@media screen and (max-width: 767px) {
+    .companyImg {
+        display: none
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .companyImg {
+        margin-right: 30px;
+        width: 50%;
+        border-radius: 30px;
+    }
+    .company {
+         padding: 60px 30px 60px 30px;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 950px) {
+    .companyTextWeHave {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .companytextChoose {
+        margin-bottom: 5px;
+    }
 }

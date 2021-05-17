@@ -1,8 +1,9 @@
 .contacts {
-    margin-top: var(--spacing-xxxl);
+    margin-top: 60px;;
     margin-bottom: var(--spacing-xxxl);
-    margin-left: var(--spacing-l);
-    margin-right: var(--spacing-l);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 970px;
 }
 .contactsOur {
     font-size: var(--text-size-xl);
@@ -13,7 +14,7 @@
     margin-bottom: 57px;
 }
 .contactsAll {
-    width: 25%;
+    width: 30%;
 }
 .contactsAll p {
     color: var(--text-color-regular);
@@ -21,12 +22,16 @@
     font-family: var(--regular-font);
     line-height: 29px;
     padding-left: 34px;
+    margin-bottom: 5px;
 }
 .contactsAll p:nth-child(2n+1) {
     margin-top: 20px;
 }
+.contactsAll div:nth-child(1) p:nth-child(1) {
+    margin-top: 40px;
+}
 .contactsAll a {
-    color: var(--text-color-regular);
+    color: var(--text-color-grey);
     font-size: var(--text-size-xs);
     font-family: var(--regular-font);
     line-height: 19px;
@@ -53,7 +58,69 @@
     background-repeat: no-repeat;
     background-position: left center;
 }
-.map {
-    min-height: 264px;
-    max-width: 1500px;
+@media screen and (max-width: 767px) {
+    .contacts {
+        margin-bottom: 80px;
+    }
+    .contactsOur {
+        margin-bottom: 30px;
+        font-size: var(--text-size-l);
+        line-height: 29px;
+        color: var(--text-color-individualDark);
+    }
+    .map {
+        min-height: 275px;
+        min-height: 274px;
+        object-fit: cover;
+        margin-left: 23px;
+        margin-right: 22px;
+        margin-top: 30px;
+    }
+    .contacts div {
+        flex-direction: column;
+    }
+    .contactsAll {
+        width: 100%
+    }
+    .contactsAll p {
+        margin-top: 30px;
+        margin-left: 24px;
+        font-size: var(--text-size-s);
+        line-height: 22px;
+        color: var(--text-color-individualDark);
+    }
+    .contactsAll a {
+        font-size: 13px;
+        line-height: 16px;
+        padding-left: 34px;
+        margin-left: 24px;
+    }
+    .contactsAll div:nth-child(1) p:nth-child(1) {
+        margin-top: 20px;
+    }
+    .contactsAll a:nth-child(1) {
+        margin-top: 15px!important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+    .contacts {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .contactsAll {
+        width: 50%;
+    }
+    .contactsAll p {
+        padding-left: 34px;
+    }
+    .contactsAll p:nth-child(2n+1) {
+        margin-top: 10px;
+    }
+    .contactsAll div:nth-child(1) p:nth-child(1) {
+        margin-top: 0px;
+    }
+    .contactsAll a {
+        
+        margin-top: 5px;
+    }
 }

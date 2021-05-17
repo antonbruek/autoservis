@@ -7,14 +7,18 @@
     line-height: 44px;
     color: var(--text-color-regular);
     text-align: center;
+    margin: auto;
 }
 .servicesCards {
     margin-top: var(--spacing-xxl);
-    justify-content: space-around;
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between
 }
 .servicesCard {
-    max-width: 289px;
-    max-height: 330px;
+    max-width: 208.43px;
+    max-height: 238px;
     min-width: 142px;
     min-height: 181px;
     background-color: var(--text-color-regular);
@@ -23,19 +27,19 @@
     
 }
 .servicesCard img {
-   max-width: 289px;
-    max-height: 220px;
+   max-width: 208.43px;
+    max-height: 158.67px;
     min-width: 142px;
     min-height: 97.84px;
 }
 .servicesCard p {
-    max-width: 289px;
-    max-height: 110px;
+    max-width: 208.43px;
+    max-height: 79.33px;
     min-width: 142px;
-    min-height: 83px;
-    font-size: var(--text-size-m);
+    min-height: 75.32px;
+    font-size: var(--text-size-xs);
     font-family: var(--regular-font);
-    line-height: 27px;
+    line-height: 19px;
     color: var(--text-color-white);
     text-align: center;
     align-items: center;
@@ -55,22 +59,28 @@
         justify-content: center;
     }
     .servicesCard {
+        max-width: 250px;
         width: calc( 50% - 36px );
-        
+        max-height: 280px;
+    }
+    .servicesCard img {
+        max-width: 250px;
+        max-height: 190px;
     }
     .servicesCard:nth-child(1), .servicesCard:nth-child(3) {
-        margin-left: 8px;
+        margin-left: 4px;
     }
     .servicesCard:nth-child(4), .servicesCard:nth-child(2) {
-        margin-right: 8px;
-        margin-left: 20px;
+        margin-right: 4px;
+        margin-left: 18px;
     }
     .servicesCard:nth-child(1), .servicesCard:nth-child(2) {
-        margin-bottom: 20px;
+        margin-bottom: 18px;
     }
     .servicesCard p {
-    font-size: var(--text-size-xxs);
-    line-height: 17px;
+    font-size: 12.6px;
+    line-height: 15px;
+        
     }
     
 }
