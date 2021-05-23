@@ -51,8 +51,35 @@
     margin-left: 29px;
 }
 @media screen and (max-width: 767px) {
+    .company {
+        padding: 60px 23px 0px 22px;
+    }
+    .aboutCompany {
+        font-size: var(--text-size-l);
+        line-height: 29px;
+        margin-bottom: 30px;
+    }    
     .companyImg {
         display: none
+    }
+    .companyTextMain {
+        font-size: var(--text-size-xs);
+        line-height: 19px;
+    }
+    .companyTextWeHave {
+        color: rgba(0, 0, 0, 1);
+        font-size: var(--text-size-xxs);
+        line-height: 17px;
+        margin-top: 15px;
+        margin-bottom: 15px; 
+    }
+    .companytextChoose {
+        font-size: var(--text-size-xxs);
+        margin-bottom: 30px;
+    }
+    .companyButton {
+        margin-left: calc(50% - 56px);
+        margin-bottom: 40px
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {

@@ -190,21 +190,22 @@
   .inputText {
     width: calc(100% - 45px);
     height: 40px;
+    padding-left: 20px;
     margin-left: 23px;
     font-size: 13px;
     line-height: 15px;
     margin-bottom: 15px; }
-  /* line 191, /Users/anton/Documents/GitHub/autoservis/styles/serviceVisit.scss */
+  /* line 192, /Users/anton/Documents/GitHub/autoservis/styles/serviceVisit.scss */
   .chooseDate {
-    margin-top: 15px; }
-  /* line 194, /Users/anton/Documents/GitHub/autoservis/styles/serviceVisit.scss */
+    margin-top: 10px; }
+  /* line 195, /Users/anton/Documents/GitHub/autoservis/styles/serviceVisit.scss */
   .chooseTime {
     margin-top: 20px; }
-  /* line 197, /Users/anton/Documents/GitHub/autoservis/styles/serviceVisit.scss */
+  /* line 198, /Users/anton/Documents/GitHub/autoservis/styles/serviceVisit.scss */
   .chooseDate, .chooseTime {
     margin-left: 23px;
     margin-bottom: 15px; }
-  /* line 201, /Users/anton/Documents/GitHub/autoservis/styles/serviceVisit.scss */
+  /* line 202, /Users/anton/Documents/GitHub/autoservis/styles/serviceVisit.scss */
   .chooseDateTable {
     margin-left: 34px;
     margin-right: 33px;
@@ -214,13 +215,17 @@
     width: calc(100% - 70px);
     min-height: 267.4px;
     border-radius: 20px; }
-  /* line 211, /Users/anton/Documents/GitHub/autoservis/styles/serviceVisit.scss */
+  /* line 212, /Users/anton/Documents/GitHub/autoservis/styles/serviceVisit.scss */
   .chooseTimeTable {
     margin-left: 34px;
     margin-right: 33px;
     padding: 10px;
     width: 230px;
     min-height: 255px;
-    border-radius: 20px; } }
+    border-radius: 20px; }
+  /* line 220, /Users/anton/Documents/GitHub/autoservis/styles/serviceVisit.scss */
+  .buttonChoose {
+    margin-top: 30px;
+    margin-left: calc(50% - 56px); } }
 
 /*# sourceMappingURL=serviceVisit.css.map */

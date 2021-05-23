@@ -35,6 +35,15 @@
     margin-bottom: 30px;
     margin-left: 61px;
 }
+.copy {
+    color: rgba(51, 51, 51, 1);
+    font-size: 12px;
+    font-family: var(--regular-font);
+    line-height: 15px;
+    margin-top: 79px;
+    text-align: left;
+    padding-left: 5px;
+}
 @media screen and (min-width: 500px) {
     .footerInf {
         text-align: center
@@ -50,6 +59,10 @@
         margin-right: 8px;
         margin-top: 30px;
     }
+    .footerLogo {
+        font-size: 28px;
+        line-height: 34px;
+    }
     .footerInf div {
         flex-direction: column;
     }
@@ -58,10 +71,12 @@
         justify-content: space-between;
         margin-left: 35px;
         margin-right: 34px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .footerButtonTruck {
         width: 93px!important;
+        margin-left: 0px;
+        margin-bottom: 0px;
     }
     .footerServices p, .footerContacts p {
         margin-top: 32px;
@@ -72,10 +87,26 @@
     .footerServices a, .footerContacts a {
         font-size: 13px;
         line-height: 16px;
+        margin-bottom: 0px;
+    } 
+    .footerServices a:nth-child(-n+4), .footerContacts a:nth-child(-n+3) {
+        margin-bottom: 10px;
     } 
     .footerServices a:nth-child(5) {
-    margin-right: 0px;
-}
+        margin-right: 0px;
+    }
+    .copy {
+        display: none;
+    }
+    .copymob {
+    color: rgba(51, 51, 51, 1);
+    font-size: 10px;
+    font-family: var(--regular-font);
+    line-height: 12px;
+    margin-top: 13px;
+    margin-bottom: 5px;
+    text-align: center;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1030px) {
     .footerInf {
@@ -83,7 +114,11 @@
     }
     .footerLogo {
         margin-left: 30px;
-        font-size: var(--text-size-l);
+        font-size: 28px;
+        margin-right: 10px;
+    }
+    .copy {
+        margin-left: 30px;
         margin-right: 10px;
     }
     
@@ -97,6 +132,5 @@
         margin-right: 30px;
         width: 20%;
         margin-left: 10px;
-        
     }
 }

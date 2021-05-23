@@ -60,10 +60,11 @@
 }
 @media screen and (max-width: 767px) {
     .contacts {
+        margin-top: 80px;
         margin-bottom: 80px;
     }
     .contactsOur {
-        margin-bottom: 30px;
+        margin-bottom: 0px;
         font-size: var(--text-size-l);
         line-height: 29px;
         color: var(--text-color-individualDark);
@@ -83,7 +84,7 @@
         width: 100%
     }
     .contactsAll p {
-        margin-top: 30px;
+        margin-top: 30px!important;
         margin-left: 24px;
         font-size: var(--text-size-s);
         line-height: 22px;
@@ -98,9 +99,7 @@
     .contactsAll div:nth-child(1) p:nth-child(1) {
         margin-top: 20px;
     }
-    .contactsAll a:nth-child(1) {
-        margin-top: 15px!important;
-    }
+    
 }
 @media screen and (min-width: 768px) and (max-width: 1030px) {
     .contacts {

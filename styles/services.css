@@ -48,7 +48,7 @@
 }
 @media screen and (max-width: 767px) {
     .services {
-    margin-top: var(--spacing-xxl);
+    margin-top: 80px;
     }
     .servicesHeader {
     font-size: var(--text-size-l);
@@ -57,6 +57,7 @@
     .servicesCards {
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 30px;
     }
     .servicesCard {
         max-width: 250px;

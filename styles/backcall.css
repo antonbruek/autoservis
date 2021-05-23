@@ -1,3 +1,7 @@
+.backCallAll {
+    margin: 0 auto;
+    width: 1206px;
+}
 .ImgEscRed {
     width: 41px;
     height: 41px;
@@ -7,10 +11,9 @@
 }
 .serviceVisit {
   background-color: var(--text-color-regular);
+    max-width: none;
     width: 1206px;
     height: 510px;
-    margin-left: 0px;
-    margin-right: 0px;
     border-radius: 15px;
 }
 .backcall {
@@ -33,7 +36,8 @@
   display: flex;
   color: var(--text-color-white);
   margin-top: 0px;
-  margin-bottom: 29px;}
+  margin-bottom: 29px;
+margin-left: 0px;}
 
 .formText {
   max-width: 470px;
@@ -158,4 +162,157 @@ margin-top: 19px;}
     margin-top: 21.33px; }
 
 .buttonChoose {
-  margin-left: 48px; }
+  margin-left: 48px;
+}
+@media screen and (max-width: 767px) {
+    .backCallEscImg {
+        width: 15px;
+        height: 15px;
+        margin-top: 22px;
+        margin-right: 22px;
+        cursor: pointer;
+    }
+    .ImgEscRed {
+        display: none;
+    }
+    .backCallAll {
+        width: 295px;
+        height: 1127px;
+    }
+    .serviceVisit {
+        flex-direction: column;
+        width: 295px;
+        height: 1127px;
+    }
+    .serviceVisit form div:nth-child(1) {
+        flex-direction: column;
+    }
+    .backcall {
+        font-size: var(--text-size-20);
+        line-height: 24px;
+        padding-top: 19px;
+        margin-bottom: 6px;
+        margin-left: 22px;
+    }
+    .serviceHeader {
+        width: 235px;
+        height: 66px;
+        font-size: var(--text-size-s);
+        line-height: 22px;
+        align-items: center;
+        display: flex;
+        color: var(--text-color-white);
+        margin-top: 0px;
+        margin-bottom: 15px;
+        margin-left: 22px;
+    }
+    .formText {
+        max-width: 251px;
+        margin-left: 0px;
+    }
+    .inputText {
+      width: 251px;
+      color: var(--text-color-lighter);
+      padding-left: 14px;
+      margin-bottom: 30px;
+      font-size: var(--text-size-xxxs);
+      font-family: var(--roboto); 
+    }
+    .chooseDate, .chooseTime {
+      color: var(--text-color-white);
+      font-size: var(--text-size-s);
+      line-height: 22px;
+      margin-top: 0px;
+      margin-left: 22px;
+      margin-right: 0px;
+      margin-bottom: 20px
+    }
+    .chooseDateTable {
+      padding: 9.91px;
+      width: 250.84px;
+      height: 232px;
+        min-height: 232px;
+      margin-left: 22px;
+        margin-bottom: 32px;}
+    .chooseDateTable div:nth-child(1) {
+        flex-direction: row!important;
+    }
+    .chooseDateTable .flex .flex p:first-child {
+        font-size: var(--text-size-xs);
+        line-height: 19px;
+    }
+    .chooseDateTable .flex .flex p:nth-child(2) {
+        font-size: var(--text-size-xs);
+        line-height: 19px;
+        margin-left: 13.88px;
+        margin-bottom: 24.71px;
+    }
+    .chooseDateTable img {
+        width: 8px;
+        height: 16px;
+        margin-top: 3px;
+        cursor: pointer;
+    }
+    .chooseDateTable .left {
+        margin-right: 15px;
+    }
+    .chooseDateTable .days {
+        font-size: var(--text-size-xxxs);
+        line-height: 16px;
+        height: 19.83px;
+        width: 19.83px;
+        margin-bottom: 9.91px;
+    }
+    .chooseDateTable .notActiveDate {
+        font-size: var(--text-size-xxxs);
+        line-height: 16px;
+        height: 19.83px;
+        width: 19.83px;
+        margin-bottom: 9.91px; 
+    }
+  .chooseDateTable .activeDate {
+    font-size: var(--text-size-xxxs);
+    line-height: 16px;
+    height: 19.83px;
+    width: 19.83px;
+    margin-bottom: 9.91px;
+    cursor: pointer;
+    }
+   .chooseDateTable .selectedDate {
+    color: var(--text-color-white);
+    background-color: #D71A21;
+    border-radius: 100px;
+    height: 19.83px !important;
+    width: 19.83px !important;
+    }
+    .chooseTimeTable {
+  width: 251.02px;
+  height: 253px;
+  padding: 0px;
+  margin-left: 22px; 
+    }
+    .chooseTimeTable div:nth-child(1) {
+        flex-direction: row!important;
+    }
+  .chooseTimeTable p {
+    color: var(--text-color-regular);
+    font-size: var(--text-size-xxs);
+    font-family: var(--regular-font);
+    line-height: 17px;
+    width: 38.69px;
+    height: 38.69px;
+    margin: 14.88px 14.88px 0px 14.88px;
+    cursor: pointer; }
+  .chooseTimeTable .selectedTime {
+    background: var(--pure-color);
+    border-radius: 43px;
+    color: var(--text-color-white); }
+  .chooseTimeTable div:nth-child(n+2) {
+    margin-top: 7.94px; }
+
+    .buttonChoose {
+        margin-left: calc(50% - 46px);
+        width: 92px;
+        height: 54px;
+    }
+}
