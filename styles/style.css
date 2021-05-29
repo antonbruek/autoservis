@@ -108,8 +108,8 @@ a {
         display: block;
     }
     .comp {
-    display: none;
-}
+        display: none;
+    }
 }
 .grid {
     display: grid;
@@ -190,5 +190,11 @@ a {
         font-size: var(--text-size-xxs);
         line-height: 16px;
         width: 111px;
+    }
+    .mobileMenu {
+        position: absolute
+    }
+    .leftMenu {
+        
     }
 }

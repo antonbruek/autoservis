@@ -100,12 +100,44 @@
     line-height: 21px;
     margin-top: 14px;
 }
+.rightMenu {
+    list-style-type: none;
+    margin-top: 0px!important; 
+    min-width: 118px; 
+    height: 16px!important;
+    align-self: center;
+    
+}
+.rightMenu li {
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.rightMenu li a {
+    font-size: var(--text-size-xxs);
+    font-family: var(--roboto);
+    color: var(--text-color-regular);
+    line-height: 16px;
+    margin-top: 20px;
+}
+.activeRightMenu {
+    color: var(--pure-color)!important;
+}
+.borderCalendarOrders {
+    height: 15px;
+    width: 1px;
+    border-right: 1px solid var(--pure-color);
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 1px;
+}
 .content table {
     width: 910px;
     height: 940px;
     margin-top: 17px;
     border-collapse: collapse;
     border-spacing: 0px;
+    margin-left: 125px;
 }
 
 .content table th {

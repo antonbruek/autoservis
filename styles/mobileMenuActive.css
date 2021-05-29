@@ -1,0 +1,24 @@
+@media screen and (max-width: 767px) {
+        .leftMenu ul {
+        list-style-type: none;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(37, 37, 37, 0.95);
+        padding-top: 30px;
+        margin-top: 0px;
+}
+.leftMenu li a {
+    font-size: var(--text-size-s);
+    font-family: var(--roboto);
+    color: var(--text-color-white);
+    line-height: 21px;
+}
+.leftMenu li {
+    margin-left: 37px;
+    padding: 8px;
+    margin-bottom: 18px; 
+}
+
+}
+    
