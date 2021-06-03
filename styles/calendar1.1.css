@@ -1,13 +1,165 @@
-.tableInProcess {
-    padding: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
+
+.edit {
+    position: absolute;
+    background: rgba(33, 33, 33, 0.5);
+    width: 100%;
+    height: 100%;
 }
-.tableServices {
-    background: #FFF3CD;
-    border-radius: 13px;
-    padding: 5px;
-    margin-left: 5px;
-    margin-top: 3.38px;
-    height: 55px;
+.leftMenu {
+    position: relative;
+}
+.editAction {
+    position: absolute;
+    width: 370px;
+    height: 207px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 24px;
+    margin-left: calc(50% - 209px);
+    margin-top: 233px;
+}
+.editAction img {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+.chooseAction {
+    font-size: var(--text-size-s);
+    font-family: var(--roboto);
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 24px;
+}
+.editAction form div:nth-child(-n+2){
+    margin-bottom: 12px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+.editAction form div:nth-child(3){
+    margin-bottom: 8px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+.editAction label {
+    font-size: var(--text-size-xxs);
+    font-family: var(--roboto);
+    color: rgba(0, 0, 0, 1);
+    line-height: 16px;
+    margin-left: 6px;
+}
+.editAction input[type=radio] {
+    font-size: var(--text-size-xxs);
+    font-family: var(--roboto);
+    color: rgba(0, 0, 0, 1);
+    margin-left: 13px;
+    
+}
+.editAction input[type=radio] {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border: 1px solid #20252B;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+.editAction input[type=radio]:after {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 0;
+    content: " ";
+    background-color: white;
+    border: 1px solid #20252B;
+    border-radius: 50%;
+    display: inline-block;
+    visibility: visible;
+  }
+  
+ .editAction input[type=radio]:checked:after {
+   background-image: url(../img/EllipseRed.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+     border: none;
+     width: 16px;
+     height: 16px;
+  }
+.actionDate {
+    margin-left: 38px;
+}
+.actionTime {
+    margin-left: 48px;
+}
+.actionDate, .actionTime {
+    font-size: 10px;
+    font-family: var(--roboto);
+    color: rgba(0, 0, 0, 1);
+    line-height: 12px;
+    margin-bottom: 39px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.editAction form div:nth-child(5){
+    justify-content: flex-end;
+}
+.editAction input[type=button] {
+    font-size: 12px;
+    font-family: var(--roboto);
+    color: var(--text-color-white);
+    line-height: 14px;
+    background: #828282;
+    border-radius: 5px;
+    border: none;
+    width: 59px;
+    height: 30px;
+    cursor: pointer;
+}
+.editAction input[type=submit] {
+    font-size: 12px;
+    font-family: var(--roboto);
+    color: var(--text-color-white);
+    line-height: 14px;
+    background: #D71A21;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: none;
+    width: 87px;
+    height: 31px;
+    cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+    .editAction {
+        position: absolute;
+        width: 272px;
+        height: 228px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 24px;
+        margin-left: calc(50% - 160px);
+        margin-top: 236px;
+    }
+    .editAction img {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    .editAction form div:nth-child(-n+2) {
+        margin-bottom: 16px;
+    }
+    .editAction form div:nth-child(3) {
+        margin-bottom: 12px;
+    }
+    .editAction form div:nth-child(5){
+        justify-content: space-between;
+    }
+    .editAction input[type=button] {
+        width: 102px;
+        height: 31px;
+    }
+    .editAction input[type=submit] {
+        width: 158px;
+    }
 }

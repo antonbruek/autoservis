@@ -2,6 +2,9 @@
     height: 90px;
     background-color: var(--text-color-individualDark);
 }
+.headerMobileImg {
+    display: none;
+}
 .header ul {
     list-style-type: none;
     margin-left: 138px;
@@ -53,6 +56,7 @@
 }
 .content {
     margin: 20px 147px 79px 22px;
+    width: 1143px;
 }
 .activeMenu {
     border-left: 2px solid var(--pure-color)
@@ -78,8 +82,8 @@
     line-height: 22px;
     width: 186px;
     height: 53px;
-    border-radius: 15px;
-    margin-right: 55px;
+    border-radius: 5px;
+    margin-right: 50px;
     border: none;
     background-color: var(--pure-color);
 }
@@ -91,7 +95,7 @@
     height: 22px;
     border-bottom: 1px solid var(--text-color-individualDark);
     margin-top: 14px;
-    margin-right: 7px;
+    margin-right: 10px;
 }
 .date {
     font-size: var(--text-size-s);
@@ -212,6 +216,136 @@
     width: 50.25px;
     background-position: 0px 22.44px;
 }
+@media screen and (max-width: 1250px) {
+    .content {
+        margin-left: 15px;
+    }
+    .content table th:nth-child(2) {
+        width: auto;
+    }
+    .content table {
+        width: 100%;
+    }
+    .buttonBack, .buttonOrderPart {
+        margin-right: 20px;
+    }
+    
+}
+@media screen and (max-width: 1050px) {
+    .content {
+        margin-right: 22px;
+        margin-left: 10px;
+    }
+    .content table {
+        margin-left: 0px;
+    }
+    .header img {
+        margin-right: 22px;
+    }
+    .buttonBack, .buttonOrderPart {
+        margin-right: 10px;
+    }
+    .chooseDateContent {
+        margin-right: 5px;
+    }
+    .buttonOrderPart {
+        width: 120px;
+    }
+    .leftMenu ul {
+        min-width: 100px
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .content {
+        margin: 20px 8px 0px 8px;
+        width: 100%;
+    }
+    .header {
+        height: 50px;
+    }
+    .headerMobileImg {
+        display: block;
+        margin-left: 37px;
+        width: 20px;
+        height: 13.33px;
+    }
+    .header ul {
+        display: none!important
+    }
+    .header img {
+        width: 19px;
+        height: 19px;
+        margin-right: 38px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    .buttonBack {
+        font-size: 0px;
+        margin-right: 30px;
+    }
+    .buttonOrderPart {
+        width: 80px;
+        height: 35.33px;
+        font-size: var(--text-size-xxxs);
+        line-height: 16px;
+    }
+    .chooseDateContent, .date {
+        margin-top: 30px;
+        font-size: var(--text-size-xxs);
+    }
+    .chooseDateContent {
+        line-height: 17px;
+        margin-bottom: 30px;
+    }
+    .date {
+        line-height: 16px;
+    }
+    .content table {
+        margin-top: 0px;
+    }
+    .tableAddress, .tableTime {
+        font-size: var(--text-size-xxxs);
+        line-height: 15px;
+    }
+    .content table {
+        height: auto;
+        margin-bottom: 24px;
+    }
+    .content table th {
+        height: 49.85px;
+    }
+    .content table tr {
+        height: 49.85px;
+    }
+    .tableTime {
+        min-width: 61px;
+    }
+    .tableDone, .tableCanceled, .tableInProcess {
+        font-size: 10px;
+        line-height: 12px;
+        height: 24px;
+        padding: 0px 6px;
+        margin-top: 12.82px;
+    }
+    .tableDone {
+        margin-left: 16.2px;
+        margin-right: 17px;
+    }
+    .tableInProcess {
+        margin-left: 16.2px;
+    }
+    .tableButtonAdd {
+        border: none;
+        background-color: white;
+        background-image: url(../img/plusRed.svg);
+        background-repeat: no-repeat;
+        width: 23px;
+        background-position: 0px 12.82px ;
+    }
+}
+
+/*
 .parts {
     width: 322px;
     margin-left: 30px;
@@ -322,4 +456,4 @@
 }
 .partsCard {
     margin-top: 31px;
-}
+}*/

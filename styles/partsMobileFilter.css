@@ -1,0 +1,120 @@
+.partsOptions {
+    min-width: 320px;
+    height: 100vh;
+    background: rgba(246, 246, 246, 1);
+    border-radius: 0px;
+    margin-top: 0px;
+}
+.buttonBack {
+    margin-left: 28px;
+    margin-top: 23px;
+    margin-right: 0px;
+}
+.deleteAll {
+    font-size: var(--text-size-xxs);
+    font-family: var(--regular-font);
+    color: var(--text-color-white);
+    line-height: 17px;
+    border: none;
+    background: #B02A37;
+    border-radius: 3px;
+    width: 114px;
+    height: 27px;
+    margin-top: 25px;
+    margin-right: 28px;
+    cursor: pointer;
+}
+.partsOptionsSelection {
+    font-size: var(--text-size-xs);
+    font-family: var(--bold-font);
+    color: var(--text-color-individualDark);
+    line-height: 19px;
+    padding-top: 35px;
+    text-align: center;
+}
+.partsOptionsPrice, .partsOptionsManufacturer {
+    font-size: var(--text-size-xs);
+    font-family: var(--regular-font);
+    color: var(--text-color-individualDark);
+    line-height: 19px;
+    margin-left: 34px;
+    margin-top: 21px;
+}
+.partsOptionsHeaderForm input[type="text"] {
+    width: 50px;
+    height: 30px;
+    font-size: 13px;
+    font-family: var(--regular-font);
+    color: var(--text-color-number);
+    line-height: 16px;
+    padding-left: 3px;
+    border: 0.5px solid #ABB5BE;
+    border-radius: 3px;
+}
+.partsOptionsHeaderForm input[type="text"]:nth-child(1) {
+    margin-left: 34px;
+}
+.partsOptionsBorder {
+    width: 14px;
+    height: 1px;
+    background-color: var(--text-color-number);
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-self: center;
+}
+.partsOptionsHeaderForm input[type="submit"] {
+    width: 30px;
+    height: 30px;
+    font-size: var(--text-size-xxs);
+    font-family: var(--regular-font);
+    color: var(--pure-color);
+    line-height: 17px;
+    border: 0.5px solid var(--pure-color);
+    border-radius: 3px;
+    background-color: var(--text-color-white);
+    margin-left: 24px;
+    cursor: pointer;
+}
+ .partsOptionsFilterManufacturer input {
+    margin-top: 10px;
+    margin-left: 34px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 0.5px solid #CED4DA;
+    border-radius: 3px;
+    position: relative;
+}
+.partsOptionsFilterType input[type=checkbox]:after, .partsOptionsFilterManufacturer input[type=checkbox]:after {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    content: " ";
+    background-color: white;
+    border: 0.5px solid #CED4DA;
+    border-radius: 3px;
+    display: inline-block;
+    visibility: visible;
+  }
+  
+ .partsOptionsFilterType input[type=checkbox]:checked:after, .partsOptionsFilterManufacturer input[type=checkbox]:checked:after {
+   background-image: url(../img/checkMark.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+    background-color: #D71A21;
+     border: none;
+     width: 20px;
+     height: 20px;
+  }
+.partsOptionsFilterType p, .partsOptionsFilterManufacturer p {
+    font-size: var(--text-size-xs);
+    font-family: var(--regular-font);
+    color: var(--text-color-individualDark);
+    line-height: 19px;
+    vertical-align: middle;
+    display: flex;
+    align-self: flex-end;
+    margin-left: 15px;
+}

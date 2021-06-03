@@ -3,6 +3,9 @@
     margin-top: 21px;
     width: 100%
 }
+.mobileFilterSort {
+    display: none;
+}
 .leftMenu ul {
     margin-top: 27px;
 }
@@ -11,6 +14,7 @@
 }
 .buttonBack {
     margin-right: 26px;
+    background-image: url(../img/backRed.svg)
 }
 .partsHeaderDetail {
     font-size: var(--text-size-l);
@@ -37,7 +41,7 @@
     font-family: var(--regular-font);
     color: var(--text-color-lighter);
     line-height: 17px;
-    background-image: url(../img/down.svg);
+    background-image: url(../img/downlighter.svg);
     background-repeat: no-repeat;
     background-position: 180px center;
 }
@@ -192,10 +196,12 @@
     margin-left: 15px;
 }
 .cardsParts {
-    margin-top: 14px;
     flex-wrap: wrap;
 }
 .cardParts {
+    margin-top: 14px;
+    flex-wrap: wrap;
+    margin-right: -2px;
     width: 205px;
     height: 349px;
     border-radius: 15px;
@@ -207,7 +213,7 @@
     margin-top: 4px;
     margin-bottom: 15px;
     font-size: var(--text-size-xs);
-    font-family: var(--bold-font);
+    font-family: var(--regular-font);
     color: var(--text-color-individualDark);
     line-height: 19px;
 }
@@ -245,4 +251,140 @@
     padding: 5.5px 4px;
     margin-right: 10px;
     cursor: pointer;
+}
+@media screen and (max-width: 1439px) {
+    .cardsParts {
+        margin-right: -130px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .cardsParts {
+        margin-right: 0px
+    }
+    .content {
+        margin-right: 22px;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .partsAvailableGoods {
+        display: none;
+    }
+    .content {
+        margin-right: 8px;
+        margin-left: 8px;
+        margin-top: 30px;
+    }
+    .buttonBack {
+        margin-right: 19px;
+        width: 24px;
+        height: 25px;
+        padding-left: 26px;
+    }
+    .partsHeaderDetail {
+        font-size: var(--text-size-xxs);
+        margin-top: 3px;
+        line-height: 17px;
+    }
+    .partsFindQuantityPositions {
+        margin-top: 16px;
+    }
+    .partsFilters {
+        display: none
+    }
+    .partsFindQuantityPositions {
+        margin-bottom: 35px;
+    }
+    .mobileFilterSort {
+        display: flex;
+    }
+    .mobileFilterSort button {
+        width: 113px;
+        height: 32px;
+        border-radius: 5px;
+        background-color: var(--text-color-regular);
+        border: none;
+        font-size: var(--text-size-xxs));
+        font-family: var(--roboto);
+        color: var(--text-color-white);
+        line-height: 16px;
+        margin-left: 1px;
+    }
+    .mobileFilterSort input {
+        width: 140px;
+        height: 32px;
+        padding-left: 9px;
+        font-size: var(--text-size-xxs));
+        font-family: var(--fonr-regular);
+        color: var(--text-color-lighter);
+        line-height: 17px;
+        border: 1px solid #CED4DA;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+        border-radius: 5px;
+        margin-right: 1px;
+        background-image: url(../img/downlighter.svg);
+        background-repeat: no-repeat;
+        background-position: 115px;
+    }
+    .cardsParts {
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+    .cardParts img {
+        width: 142px;
+        height: 127px;
+        display: block;
+    }
+    .cardParts {
+        margin-top: 30px;
+        margin-right: 0px;
+        width: 142px;
+        height: 276px;
+        border-radius: 0px;
+        margin-left: 0px;
+        margin-bottom: 00px;
+    }
+    .cardsPartsManufacturer {
+        margin-left: 1px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: var(--roboto);
+        font-weight: 700;
+        font-size: var(--text-size-xxs);
+        line-height: 16px;
+    }
+    .cardsPartsDesc {
+        font-size: var(--text-size-xxs);
+        font-family: var(--roboto);
+        line-height: 16px;
+        margin-bottom: 10px;
+        margin-left: 1px;
+        width: 140px;
+    }
+    .cardsPartsPrice {
+        margin-left: 0px;
+        font-size: var(--text-size-s);
+        font-family: var(--roboto);
+        color: var(--text-color-individualDark);
+        line-height: 21px;
+        margin-bottom: 15px;
+    }
+    .cardsPartsValute {
+        margin-left: 5px;
+        font-size: var(--text-size-xxxs);
+        font-family: var(--roboto);
+        color: var(--text-color-number);
+        line-height: 15px;
+        margin-bottom: 15px;
+    }
+    .cardsPartsButton {
+        font-family: var(--roboto);
+        background-color: var(--pure-color);
+        padding: 5.5px 4px;
+        margin-right: 0px;
+        cursor: pointer;
+        width: 141px;
+        height: 31px;
+    }
 }

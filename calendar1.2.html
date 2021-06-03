@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/calendar.css">
+    <link rel="stylesheet" href="styles/calendar1.1.css">
+    <link rel="stylesheet" href="styles/calendar1.2.css">
 </head>
 <body>
     <div class="header flex onSides">
@@ -25,7 +27,7 @@
         <div class="content">
             <div class="flex onSides">
                 <div class="flex">
-                    <button href="javascript:history.back()" class="buttonBack">Назад</button>
+                    <button class="buttonBack">Назад</button>
                     <button class="buttonOrderPart">запчасти</button>
                     <p class="chooseDateContent comp">Выберите день:</p>
                     <p class="date comp">Четверг 07.01.2021</p>
@@ -59,7 +61,7 @@
                <tr>
                    <th class="tableTime">10:00</th>
                    <th class="flex onSides">
-                      <div>
+                      <div class="tableServices">
                        <p class="tableInProcess">Прокачка тормозов<br>10:00 - 12:00</p>
                       </div>
                        <button class="tableButtonAdd"></button>
@@ -314,6 +316,31 @@
                 </div>
 -->
             </div>
+        </div>
+        <div class="edit">
+        <div class="editAction">
+            <div class="flex onSides">
+                <p class="chooseAction">Добавить задачу</p>
+                <img src="img/escRed.svg" alt="">
+            </div>
+            <form action="post">
+                <div class="col">
+                    <label for="">Введите название</label>
+                    <input type="text" placeholder="замена тормозов">
+                </div>
+                <div class="col">
+                    <label for="">Выберите дату и время </label>
+                    <div class="flex">
+                        <p class="actionDate">Дата:</p>
+                        <p class="actionTime">Время:</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <input type="button" value="отмена">
+                    <input type="submit" value="применить">
+                </div>
+            </form>
+        </div>
         </div>
     </div>
 </body>

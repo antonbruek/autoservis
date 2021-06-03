@@ -13,35 +13,40 @@
 <body>
     <div class="header flex onSides">
         <ul class="flex">
-            <li><a href="workshops.html">Точки</a></li>
+            <li><a href="/workshops.html">Точки</a></li>
             <li  class="active"><a href="">Запчасти</a></li>
         </ul>
+        <img class="headerMobileImg" src="img/mobileMenu.svg" alt="">
         <img src="img/authorization.svg" alt="">
     </div>
     <div class="flex leftMenu">
-        <ul>
-            <li><a href="workshops.html">Точки</a></li>
+        <ul class="comp">
+            <li><a href="/workshops.html">Точки</a></li>
             <li  class="activeMenu"><a href="">Запчасти</a></li>
         </ul>
-        <div class="border"></div>
+        <div class="border comp"></div>
         <div class="content">
             <div class="flex">
                 <button class="buttonBack">Назад</button>
                 <p class="partsHeaderDetail">Маслянный фильтр</p>
             </div>
             <p class="partsFindQuantityPositions">Найдено 1234 позиций</p>
-            <div class="partsFilters flex">
+            <div class="partsFilters flex comp">
                 <input class="partsFilter" type="text" placeholder="от дешевых к дорогим">
                 <img class="strips" src="img/3strips.svg" alt="">
                 <img class="squares" src="img/4squares.svg" alt="">
             </div>
-            <div class="flex">
-                <p class="partsAvailableGoods">Доступно 989 товаров</p>
-                <p class="partsFilterOn">Маслянный фильтр<img src="img/escRedSmall.svg" alt=""></p>
-                <p class="partsFilterOn">Mann<img src="img/escRedSmall.svg" alt=""></p>
+            <div class="mobile mobileFilterSort flex onSides">
+                <button>фильтр</button>
+                <input type="text" placeholder="сортировать">
             </div>
             <div class="flex">
-                <div class="partsOptions">
+                <p class="partsAvailableGoods">Доступно 989 товаров</p>
+                <p class="partsFilterOn comp">Маслянный фильтр<img src="img/escRedSmall.svg" alt=""></p>
+                <p class="partsFilterOn comp">Mann<img src="img/escRedSmall.svg" alt=""></p>
+            </div>
+            <div class="flex">
+                <div class="partsOptions comp">
                     <p class="partsOptionsSelection">Подбор по параметрам</p>
                     <p class="partsOptionsPrice">Цена</p>
                     <form class="partsOptionsHeaderForm flex" action="post">
@@ -80,18 +85,23 @@
                         <div class="flex">
                         <img src="img/filter205x201second.png" alt="">
                         <div class="col">
-                        <div class="flex">
-                        <p class="cardsPartsManufacturer">Mann</p>
-                        <p class="cardsPartsDesc">Маслянный фильтр w 811/80</p>
-                        </div>
-                        <p class="cardsPartsAllDesc">Внутренняя резьба: М20 х 1,5 <br>
+                            <div class="flex">
+                                <p class="cardsPartsManufacturer">Mann</p>
+                                <p class="cardsPartsDesc">Маслянный фильтр w 811/80</p>
+                            </div>
+                        <p class="cardsPartsAllDesc comp">Внутренняя резьба: М20 х 1,5 <br>
                         Исполнение фильтра: накручиваемый фильтр <br>
                         Высота: 75.00 мм<br>
                         Внешний диаметр: 80.00 мм<br>
                         Диаметр уплотнительной прокладки: 65.00 мм</p>
                         </div>
                         </div>
-                        <div class="col">
+                        <p class="cardsPartsAllDesc mobile">Внутренняя резьба: М20 х 1,5 <br>
+                        Исполнение фильтра: накручиваемый фильтр <br>
+                        Высота: 75.00 мм<br>
+                        Внешний диаметр: 80.00 мм<br>
+                        Диаметр уплотнительной прокладки: 65.00 мм</p>
+                        <div class="cardPartsPriceButton col">
                             <div class="flex">
                             <p  class="cardsPartsPrice">148</p><span class="cardsPartsValute">грн</span></div>
                             <button class="cardsPartsButton">заказать</button>
@@ -106,14 +116,19 @@
                         <p class="cardsPartsManufacturer">Mann</p>
                         <p class="cardsPartsDesc">Маслянный фильтр w 79</p>
                         </div>
-                        <p class="cardsPartsAllDesc">Внутренняя резьба: М20 х 1,5 <br>
+                        <p class="cardsPartsAllDesc comp">Внутренняя резьба: М20 х 1,5 <br>
                         Исполнение фильтра: накручиваемый фильтр <br>
                         Высота: 75.00 мм<br>
                         Внешний диаметр: 80.00 мм<br>
                         Диаметр уплотнительной прокладки: 65.00 мм</p>
                         </div>
                         </div>
-                        <div class="col">
+                        <p class="cardsPartsAllDesc mobile">Внутренняя резьба: М20 х 1,5 <br>
+                        Исполнение фильтра: накручиваемый фильтр <br>
+                        Высота: 75.00 мм<br>
+                        Внешний диаметр: 80.00 мм<br>
+                        Диаметр уплотнительной прокладки: 65.00 мм</p>
+                        <div class="col cardPartsPriceButton ">
                             <div class="flex">
                             <p  class="cardsPartsPrice">170</p><span class="cardsPartsValute">грн</span></div>
                             <button class="cardsPartsButton">заказать</button>
@@ -128,14 +143,19 @@
                         <p class="cardsPartsManufacturer">Mann</p>
                         <p class="cardsPartsDesc">Маслянный фильтр w 914/2</p>
                         </div>
-                        <p class="cardsPartsAllDesc">Внутренняя резьба: М20 х 1,5 <br>
+                        <p class="cardsPartsAllDesc comp">Внутренняя резьба: М20 х 1,5 <br>
                         Исполнение фильтра: накручиваемый фильтр <br>
                         Высота: 75.00 мм<br>
                         Внешний диаметр: 80.00 мм<br>
                         Диаметр уплотнительной прокладки: 65.00 мм</p>
                         </div>
                         </div>
-                        <div class="col">
+                        <p class="cardsPartsAllDesc mobile">Внутренняя резьба: М20 х 1,5 <br>
+                        Исполнение фильтра: накручиваемый фильтр <br>
+                        Высота: 75.00 мм<br>
+                        Внешний диаметр: 80.00 мм<br>
+                        Диаметр уплотнительной прокладки: 65.00 мм</p>
+                        <div class="col cardPartsPriceButton">
                             <div class="flex">
                             <p  class="cardsPartsPrice">215</p><span class="cardsPartsValute">грн</span></div>
                             <button class="cardsPartsButton">заказать</button>
@@ -150,14 +170,19 @@
                         <p class="cardsPartsManufacturer">Mann</p>
                         <p class="cardsPartsDesc">Маслянный фильтр w 7015</p>
                         </div>
-                        <p class="cardsPartsAllDesc">Внутренняя резьба: М20 х 1,5 <br>
+                        <p class="cardsPartsAllDesc comp">Внутренняя резьба: М20 х 1,5 <br>
                         Исполнение фильтра: накручиваемый фильтр <br>
                         Высота: 75.00 мм<br>
                         Внешний диаметр: 80.00 мм<br>
                         Диаметр уплотнительной прокладки: 65.00 мм</p>
                         </div>
                         </div>
-                        <div class="col">
+                        <p class="cardsPartsAllDesc mobile">Внутренняя резьба: М20 х 1,5 <br>
+                        Исполнение фильтра: накручиваемый фильтр <br>
+                        Высота: 75.00 мм<br>
+                        Внешний диаметр: 80.00 мм<br>
+                        Диаметр уплотнительной прокладки: 65.00 мм</p>
+                        <div class="cardPartsPriceButton col">
                             <div class="flex">
                             <p  class="cardsPartsPrice">230</p><span class="cardsPartsValute">грн</span></div>
                             <button class="cardsPartsButton">заказать</button>

@@ -11,91 +11,100 @@
 <body>
     <div class="header flex onSides">
         <ul class="flex">
-            <li><a href="workshops.html">Точки</a></li>
+            <li><a href="/workshops.html">Точки</a></li>
             <li class="active"><a href="">Запчасти</a></li>
         </ul>
+        <img class="headerMobileImg" src="img/mobileMenu.svg" alt="">
         <img src="img/authorization.svg" alt="">
     </div>
     <div class="flex leftMenu">
-        <ul>
-            <li><a href="workshops.html">Точки</a></li>
+        <ul class="comp">
+            <li><a href="/workshops.html">Точки</a></li>
             <li class="activeMenu"><a href="">Запчасти</a></li>
         </ul>
-        <div class="border"></div>
+        <div class="border comp"></div>
         <div class="content">
-            <form class="form flex" action="post">
+            <div class="form">
+               <p class="chooseBrand">Выберите марку </p>
+               <img class="formDownImg" src="img/down.svg" alt="">
+               <p>Выберите модель </p>
+               <img class="formDownImg" src="img/down.svg" alt="">
+               <p>Уточните год</p>
+               <img class="formDownImg" src="img/down.svg" alt="">
+               <p>Тип кузова</p>
+               <img class="formDownImg" src="img/down.svg" alt="">
+               <p>Выберите двигатель</p>
+               <img class="formDownImg" src="img/down.svg" alt="">
+            </div>
+            <form action="post" class="formMobile col">
                 <input type="text" placeholder="Выберите марку">
-                <img class="formDownImg" src="img/down.svg" alt=""><div class="formBorder"></div>
                 <input type="text" placeholder="Выберите модель">
-                <img class="formDownImg" src="img/down.svg" alt=""><div class="formBorder"></div>
                 <input type="text" placeholder="Уточните год">
-                <img class="formDownImg" src="img/down.svg" alt=""><div class="formBorder"></div>
                 <input type="text" placeholder="Тип кузова">
-                <img class="formDownImg" src="img/down.svg" alt=""><div class="formBorder"></div>
                 <input type="text" placeholder="Выберите двигатель">
-                <img class="formDownImg" src="img/down.svg" alt="">
+                <input type="submit" value="поиск">
             </form>
-            <div class="flex onSides">
+            <div class="partsName flex onSides">
                 <div>
                     <div>
                         <p class="partsCategory">Фильтры</p>
-                        <p class="partsDetail">Маслянный фильтр<span>(1234)</span></p>
-                        <p class="partsDetail">Воздушный фильтр<span>(21)</span></p>
-                        <p class="partsDetail">Топливный фильтр<span>(21)</span></p>
-                        <p class="partsDetail">Фильтр салона<span>(21)</span></p>
+                        <a href="/parts3.html" class="partsDetail">Маслянный фильтр<span>(1234)</span></a>
+                        <a class="partsDetail">Воздушный фильтр<span>(21)</span></a>
+                        <a class="partsDetail">Топливный фильтр<span>(21)</span></a>
+                        <a class="partsDetail">Фильтр салона<span>(21)</span></a>
                     </div>
                     <div>
                         <p class="partsCategory partsCategoryFilters">Фильтры</p>
-                        <p class="partsDetail">Армотизатор<span>(21)</span></p>
-                        <p class="partsDetail">Рулевая тяга и наконечник<span>(21)</span></p>
-                        <p class="partsDetail">Рычаги и шаровые опоры<span>(21)</span></p>
-                        <p class="partsDetail">Сайлентблоки<span>(21)</span></p>
+                        <a class="partsDetail">Армотизатор<span>(21)</span></a>
+                        <a class="partsDetail">Рулевая тяга и наконечник<span>(21)</span></a>
+                        <a class="partsDetail">Рычаги и шаровые опоры<span>(21)</span></a>
+                        <a class="partsDetail">Сайлентблоки<span>(21)</span></a>
                     </div>
                 </div>
                 <div>
                     <div>
                         <p class="partsCategory">Тормозная система</p>
-                        <p class="partsDetail">Тормозной диск<span>(21)</span></p>
-                        <p class="partsDetail">Тормозные колодки<span>(21)</span></p>
+                        <a class="partsDetail">Тормозной диск<span>(21)</span></a>
+                        <a class="partsDetail">Тормозные колодки<span>(21)</span></a>
                     </div>
                     <div>
                         <p class="partsCategory partsCategoryOils">Автомобильные масла</p>
-                        <p class="partsDetail">Моторное масло<span>(21)</span></p>
-                        <p class="partsDetail">Трансмиссионное масло<span>(21)</span></p>
+                        <a class="partsDetail">Моторное масло<span>(21)</span></a>
+                        <a class="partsDetail">Трансмиссионное масло<span>(21)</span></a>
                     </div>
                     <div>
                         <p class="partsCategory partsCategoryIgnitionElectric">Система зажигания и электрика</p>
-                        <p class="partsDetail">Автомобильные аккумуляторы<span>(21)</span></p>
+                        <a class="partsDetail">Автомобильные аккумуляторы<span>(21)</span></a>
                     </div>
                 </div>
                 <div>
                     <div>
                         <p class="partsCategory">Автомобильные масла</p>
-                        <p class="partsDetail">Моторное масло<span>(21)</span></p>
-                        <p class="partsDetail">Трансмиссионное масло<span>(21)</span></p>
+                        <a class="partsDetail">Моторное масло<span>(21)</span></a>
+                        <a class="partsDetail">Трансмиссионное масло<span>(21)</span></a>
                     </div>
                     <div>
                         <p class="partsCategory partsCategoryElectric">Система зажигания и электрика</p>
-                        <p class="partsDetail">Автомобильные аккумуляторы<span>(21)</span></p>
+                        <a class="partsDetail">Автомобильные аккумуляторы<span>(21)</span></a>
                     </div>
                     <div>
                         <p class="partsCategory partsCategoryBrake">Тормозная система</p>
-                        <p class="partsDetail">Тормозной диск<span>(21)</span></p>
-                        <p class="partsDetail">Тормозные колодки<span>(21)</span></p>
+                        <a class="partsDetail">Тормозной диск<span>(21)</span></a>
+                        <a class="partsDetail">Тормозные колодки<span>(21)</span></a>
                     </div>
                 </div>
                 <div>
                     <div>
                         <p class="partsCategory">Фильтры</p>
-                        <p class="partsDetail">Армотизатор<span>(21)</span></p>
-                        <p class="partsDetail">Рулевая тяга и наконечник<span>(21)</span></p>
-                        <p class="partsDetail">Рычаги и шаровые опоры<span>(21)</span></p>
-                        <p class="partsDetail">Сайлентблоки<span>(21)</span></p>
+                        <a class="partsDetail">Армотизатор<span>(21)</span></a>
+                        <a class="partsDetail">Рулевая тяга и наконечник<span>(21)</span></a>
+                        <a class="partsDetail">Рычаги и шаровые опоры<span>(21)</span></a>
+                        <a class="partsDetail">Сайлентблоки<span>(21)</span></a>
                     </div>
                     <div>
                         <p class="partsCategory partsCategoryBrakeSystem">Тормозная система</p>
-                        <p class="partsDetail">Тормозной диск<span>(21)</span></p>
-                        <p class="partsDetail">Тормозные колодки<span>(21)</span></p>
+                        <a class="partsDetail">Тормозной диск<span>(21)</span></a>
+                        <a class="partsDetail">Тормозные колодки<span>(21)</span></a>
                     </div>
                 </div>
             </div>

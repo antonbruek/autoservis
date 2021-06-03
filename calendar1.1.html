@@ -10,24 +10,36 @@
 </head>
 <body>
     <div class="header flex onSides">
-        <ul class="flex">
+        <ul class="flex comp">
             <li class="active"><a href="">Точки</a></li>
-            <li><a href="parts.html">Запчасти</a></li>
+            <li><a href="/parts.html">Запчасти</a></li>
         </ul>
+        <img class="headerMobileImg" src="img/mobileMenu.svg" alt="">
         <img src="img/authorization.svg" alt="">
     </div>
     <div class="flex leftMenu">
-        <ul>
+        <ul class="comp">
             <li class="activeMenu"><a href="">Точки</a></li>
-            <li><a href="parts.html">Запчасти</a></li>
+            <li><a href="/parts.html">Запчасти</a></li>
         </ul>
-        <div class="border"></div>
+        <div class="border comp"></div>
         <div class="content">
+            <div class="flex onSides">
+                <div class="flex">
+                    <button class="buttonBack">Назад</button>
+                    <button class="buttonOrderPart">запчасти</button>
+                    <p class="chooseDateContent comp">Выберите день:</p>
+                    <p class="date comp">Четверг 07.01.2021</p>
+                </div>
+                <ul class="flex rightMenu">
+                    <li><a class="activeRightMenu" href="">Календарь</a></li>
+                    <div class="borderCalendarOrders"></div>
+                    <li><a href="/calendarParts.html">Заказы</a></li>
+                </ul>
+            </div>
             <div class="flex">
-                <button class="buttonBack">Назад</button>
-                <button class="buttonOrderPart">заказать запчасть</button>
-                <p class="chooseDateContent">Выберите день:</p>
-                <p class="date">Четверг 07.01.2021</p>
+                <p class="chooseDateContent mobile">Выберите день:</p>
+                <p class="date mobile">Четверг 07.01.2021</p>
             </div>
             <div class="flex">
                  <table>
@@ -50,10 +62,6 @@
                    <th class="flex onSides">
                       <div class="tableServices">
                        <p class="tableInProcess">Прокачка тормозов<br>10:00 - 12:00</p>
-                       <div class="flex onSides">
-                           <p class="tableInProcessDone">выполнено</p>
-                           <p class="tableInProcessRemove">удалить</p>
-                       </div>
                       </div>
                        <button class="tableButtonAdd"></button>
                    </th>
@@ -129,6 +137,7 @@
                    </th>
                </tr>
               </table>
+<!--
                  <div class="parts">
                     <p class="partsHeaderDesc">Покупки:</p>
                     <div class="partsCard">
@@ -304,7 +313,38 @@
                         <div class="borderBottomParts"></div>
                     </div>
                 </div>
+-->
             </div>
+        </div>
+        <div class="edit">
+        <div class="editAction">
+            <div class="flex onSides">
+                <p class="chooseAction">Выберите действие</p>
+                <img src="img/escRed.svg" alt="">
+            </div>
+            <form action="post">
+                <div>
+                    <input type="radio" name="Отменить задачу">
+                    <label for="">Отменить задачу</label>
+                </div>
+                <div>
+                    <input type="radio" name="Задача выполнена">
+                    <label for="">Задача выполнена</label>
+                </div>
+                <div>
+                    <input type="radio" name="Перенести время задачи" checked>
+                    <label for="">Перенести время задачи</label>
+                </div>
+                <div class="flex">
+                    <p class="actionDate">Дата:</p>
+                    <p class="actionTime">Время:</p>
+                </div>
+                <div class="flex">
+                    <input type="button" value="отмена">
+                    <input type="submit" value="применить">
+                </div>
+            </form>
+        </div>
         </div>
     </div>
 </body>

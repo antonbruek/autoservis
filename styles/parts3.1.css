@@ -79,3 +79,117 @@
     margin-left: 0px;
     margin-top: 7px;
 }
+@media screen and (max-width: 1439px) {
+    .cardsParts {
+        margin-right: 0px!important;
+    }
+}
+    
+@media screen and (max-width: 1260px) {
+    .content {
+        margin-right: 22px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .cardsParts {
+        margin-left: 5px;
+    }
+    .cardsPartsManufacturer {
+        margin-left: 5px;
+    }
+    .cardsPartsAllDesc {
+        margin-left: 5px
+    }
+}
+@media screen and (max-width: 1050px) {
+    .cardsPartsButton {
+        width: 70px
+    }
+}
+@media screen and (max-width: 950px) {
+    .cardParts {
+        max-height: none;
+        height: auto;
+    }
+    .cardParts div:nth-child(2) {
+        justify-content: center;
+    }
+    .cardsPartsButton {
+        width: 160px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .content {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .cardsParts {
+        margin-left: 0px;
+    }
+    .cardParts {
+        flex-direction: column;
+    }
+    .cardParts img {
+        width: 84px;
+        height: 75px;
+    }
+    .cardsPartsManufacturer {
+        margin-top: 6px;
+        margin-bottom: 15px;
+        font-size: var(--text-size-xxs);
+        line-height: 16px;
+    }
+    .cardsPartsDesc {
+        margin-left: 5px;
+        width: auto;
+        margin-bottom: 32px;
+        font-size: var(--text-size-xxs);
+        line-height: 16px;
+    }
+    .cardParts div div div {
+        flex-direction: column
+    }
+    .cardsPartsAllDesc {
+        font-size: var(--text-size-xxxs);
+        line-height: 161.19%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .cardsPartsButton {
+        width: 160px;
+        height: 30px;
+        font-family: var(--roboto);
+        padding: 0px 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .cardPartsPriceButton {
+        flex-direction: row
+    }
+    .cardsPartsPrice {
+        font-size: var(--text-size-s);
+        line-height: 21px;
+        margin-bottom: 0px;
+        margin-right: 5px;
+    }
+    .cardsPartsValute {
+        font-size: var(--text-size-xxxs);
+        line-height: 15px;
+        margin-left: 0px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        margin-right: 14px;
+    }
+    .borderPartsDown {
+        margin-left: 12px;
+        margin-right: 10px!important;
+    }
+    .cardParts:nth-child(n+2) {
+        margin-top: 10px;
+    }
+}
